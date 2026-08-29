@@ -1,0 +1,73 @@
+cv:
+  name: Swarat Chaudhuri
+  label: Professor of Computer Science, UT Austin
+  email: swarat@cs.utexas.edu
+  location: Austin, TX
+  image: ""
+  summary: Swarat Chaudhuri is a Professor of Computer Science at UT Austin and a Senior Staff Research Scientist at Google DeepMind. His research is at the interface of programming languages, formal methods, and machine learning.
+
+  social_networks:
+    - network: X
+      username: swarat
+    - network: GitHub
+      username: swaratchaudhuri
+
+  # NOTE (from the migration agent): only well-attested facts are filled in below.
+  # Exact start/end years for the Rice -> UT Austin transition, and dates for the
+  # older awards, were not available from the source page and are left out rather
+  # than guessed. Swarat: please fill these in, or send a copy of your CV text and
+  # ask for it to be converted into this file.
+  sections:
+    Education:
+      - institution: University of Pennsylvania
+        location: Philadelphia, PA
+        area: Computer and Information Science
+        studyType: PhD
+        end_date: 2007
+        highlights:
+          - "Dissertation: Logics and Algorithms for Software Model Checking"
+          - ACM SIGPLAN John Reynolds Doctoral Dissertation Award
+          - Morris and Dorothy Rubinoff Dissertation Award
+
+      - institution: Indian Institute of Technology, Kharagpur
+        location: Kharagpur, India
+        area: Computer Science and Engineering
+        studyType: B.Tech
+        end_date: 2001
+
+    Experience:
+      - company: Google DeepMind
+        position: Senior Staff Research Scientist
+        location: London, UK
+        summary: Science and Strategic Initiatives Unit. On leave from UT Austin since Fall 2024.
+
+      - company: University of Texas at Austin
+        position: Professor of Computer Science
+        location: Austin, TX
+        summary: Leads the Trishul lab, working at the interface of programming languages, formal methods, and machine learning.
+        highlights:
+          - Program Chair, ICLR 2024
+          - Program Chair, CAV 2016
+
+      - company: Rice University
+        position: Faculty, Department of Computer Science
+        location: Houston, TX
+
+    Awards:
+      - title: ACM Fellow
+        date: 2025
+        awarder: Association for Computing Machinery
+
+      - title: Guggenheim Fellowship
+        date: 2025
+        awarder: John Simon Guggenheim Memorial Foundation
+        summary: For a project on AI for open-ended mathematical discovery.
+
+      - title: NSF CAREER Award
+        awarder: National Science Foundation
+
+      - title: ACM SIGPLAN John Reynolds Doctoral Dissertation Award
+        awarder: ACM SIGPLAN
+
+      - title: Morris and Dorothy Rubinoff Dissertation Award
+        awarder: University of Pennsylvania

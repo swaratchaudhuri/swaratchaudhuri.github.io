@@ -1,0 +1,1004 @@
+---
+---
+
+@misc{barrett2026cslib,
+  title     = {CSLib: The Lean Computer Science Library},
+  author    = {Clark Barrett and Swarat Chaudhuri and Fabrizio Montesi and Jim Grundy and Pushmeet Kohli and Leonardo de Moura and Alexandre Rademaker and Sorrachai Yingchareonthawornchai},
+  year      = {2026},
+  arxiv     = {2602.04846},
+  abstract  = {We introduce CSLib, an open-source framework for proving computer-science-related theorems and writing formally verified code in the Lean proof assistant. CSLib aims to be for computer science what Lean's Mathlib is for mathematics. Mathlib has been tremendously impactful: it is a key reason for Lean's popularity within the mathematics research community, and it has also played a critical role in the training of AI systems for mathematical reasoning. However, the base of computer science knowledge in Lean is currently quite limited. CSLib will vastly enhance this knowledge base and provide infrastructure for using this knowledge in real-world verification projects. By doing so, CSLib will (1) enable the broad use of Lean in computer science education and research, and (2) facilitate the manual and AI-aided engineering of large-scale formally verified systems.},
+  selected  = {true}
+}
+
+@inproceedings{lu2026lean,
+  title     = {Lean finder: Semantic search for mathlib that understands user intents},
+  author    = {Jialin Lu and Kye Emond and Kaiyu Yang and Swarat Chaudhuri and Weiran Sun and Wuyang Chen},
+  year      = {2026},
+  booktitle = {International Conference for Learning Representations (ICLR)},
+  arxiv     = {2510.15940},
+  abstract  = {We present Lean Finder, a semantic search engine for Lean and mathlib that understands and aligns with the intents of mathematicians. Progress in formal theorem proving is often hindered by the difficulty of locating relevant theorems and the steep learning curve of the Lean 4 language, making advancement slow and labor-intensive. Existing Lean search engines, though helpful, rely primarily on informalizations (natural language translation of the formal statements), while largely overlooking the mismatch with real-world user queries. In contrast, we propose a user-centered semantic search tailored to the needs of mathematicians. Our approach begins by analyzing and clustering the semantics of public Lean discussions, then fine-tuning text embeddings on synthesized queries that emulate user intents. We further align Lean Finder with mathematicians' preferences using diverse feedback signals, encoding it with a rich awareness of their goals from multiple perspectives. Evaluations on real-world queries, informalized statements, and proof states demonstrate that our Lean Finder achieves over $30\%$ relative improvement compared to previous search engines and GPT-4o. In addition, Lean Finder is compatible with LLM-based theorem provers, bridging retrieval with formal reasoning. Lean Finder is available at: https://leanfinder.github.io}
+}
+
+@inproceedings{tsoi2026bidirectional,
+  title     = {Bidirectional Value Alignment},
+  author    = {Nathan Tsoi and Eric Hsiung and Masayuki Yamazaki and Swarat Chaudhuri and Peter Stone and Joydeep Biswas},
+  year      = {2026},
+  booktitle = {AAMAS Blue Sky Track}
+}
+
+@inproceedings{yang2026canopy,
+  title     = {Canopy: Property-Driven Learning for Congestion Control},
+  author    = {Chenxi Yang and Divyanshu Saxena and Rohit Dwivedula and Kshiteej Mahajan and Swarat Chaudhuri and Aditya Akella},
+  year      = {2026},
+  booktitle = {Eurosys},
+  arxiv     = {2412.10915},
+  abstract  = {Learning-based congestion controllers offer better adaptability compared to traditional heuristics. However, the unreliability of learning techniques can cause learning-based controllers to behave poorly, creating a need for formal guarantees. While methods for formally verifying learned congestion controllers exist, these methods offer binary feedback that cannot optimize the controller toward better behavior. We improve this state-of-the-art via Canopy, a new property-driven framework that integrates learning with formal reasoning in the learning loop. Canopy uses novel quantitative certification with an abstract interpreter to guide the training process, rewarding models, and evaluating robust and safe model performance on worst-case inputs. Our evaluation demonstrates that unlike state-of-the-art learned controllers, Canopy-trained controllers provide both adaptability and worst-case reliability across a range of network conditions.}
+}
+
+@inproceedings{chaudhuri2025neurosymbolic,
+  title     = {Neurosymbolic Program Synthesis},
+  author    = {Swarat Chaudhuri},
+  year      = {2025},
+  booktitle = {Handbook on Neurosymbolic AI and Knowledge Graphs},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/ns-handbook-2025.pdf}
+}
+
+@inproceedings{dwivedula2025man,
+  title     = {Man-Made Heuristics Are Dead. Long Live Code Generators!},
+  author    = {Rohit Dwivedula and Divyanshu Saxena and Aditya Akella and Swarat Chaudhuri and Daehyeok Kim},
+  year      = {2025},
+  booktitle = {HotNets},
+  arxiv     = {2510.08803},
+  abstract  = {Policy design for various systems controllers has conventionally been a manual process, with domain experts carefully tailoring heuristics for the specific instance in which the policy will be deployed. In this paper, we re-imagine policy design via a novel automated search technique fueled by recent advances in generative models, specifically Large Language Model (LLM)-driven code generation. We outline the design and implementation of PolicySmith, a framework that applies LLMs to synthesize instance-optimal heuristics. We apply PolicySmith to two long-standing systems policies - web caching and congestion control, highlighting the opportunities unraveled by this LLM-driven heuristic search. For caching, PolicySmith discovers heuristics that outperform established baselines on standard open-source traces. For congestion control, we show that PolicySmith can generate safe policies that integrate directly into the Linux kernel.}
+}
+
+@inproceedings{hsiung2025automata,
+  title     = {Automata Learning from Preference and Equivalence Queries},
+  author    = {Eric Hsiung and Joydeep Biswas and Swarat Chaudhuri},
+  year      = {2025},
+  booktitle = {Conference on Computer-Aided Verification (CAV)},
+  arxiv     = {2308.09301},
+  abstract  = {Active automata learning from membership and equivalence queries is a foundational problem with numerous applications. We propose a novel variant of the active automata learning problem: actively learn finite automata using preference queries -- i.e., queries about the relative position of two sequences in a total order -- instead of membership queries. Our solution is REMAP, a novel algorithm which leverages a symbolic observation table along with unification and constraint solving to navigate a space of symbolic hypotheses (each representing a set of automata), and uses satisfiability-solving to construct a concrete automaton from a symbolic hypothesis. REMAP is guaranteed to correctly infer the minimal automaton with polynomial query complexity under exact equivalence queries, and achieves PAC-identification ($\varepsilon$-approximate, with high probability) of the minimal automaton using sampling-based equivalence queries. Our empirical evaluations of REMAP on the task of learning reward machines for two reinforcement learning domains indicate REMAP scales to large automata and is effective at learning correct automata from consistent teachers, under both exact and sampling-based equivalence queries.}
+}
+
+@inproceedings{nie2025resource,
+  title     = {Resource-Efficient Inference with Foundation Model Programs},
+  author    = {Lunyiu Nie and Zhimin Ding and Kevin Yu and Marco Cheung and Christopher Jermaine and Swarat Chaudhuri},
+  year      = {2025},
+  booktitle = {Conference on Language Models (COLM)},
+  arxiv     = {2504.07247},
+  abstract  = {The inference-time resource costs of large language and vision models present a growing challenge in production deployments. We propose the use of foundation model programs, i.e., programs that can invoke foundation models with varying resource costs and performance, as an approach to this problem. Specifically, we present a method that translates a task into a program, then learns a policy for resource allocation that, on each input, selects foundation model "backends" for each program module. The policy uses smaller, cheaper backends to handle simpler subtasks, while allowing more complex subtasks to leverage larger, more capable models. We evaluate the method on two new "streaming" visual question-answering tasks in which a system answers a question on a sequence of inputs, receiving ground-truth feedback after each answer. Compared to monolithic multi-modal models, our implementation achieves up to 98% resource savings with minimal accuracy loss, demonstrating its potential for scalable and resource-efficient multi-modal inference.}
+}
+
+@misc{novikov2025alphaevolve,
+  title     = {AlphaEvolve: A coding agent for scientific and algorithmic discovery},
+  author    = {Alexander Novikov and Ngân Vu and Marvin Eisenberger and Emilien Dupont and Po-Sen Huang and Adam Zsolt Wagner and Sergey Shirobokov and Borislav Kozlovskii and Francisco JR Ruiz and Abbas Mehrabian and M Pawan Kumar and Abigail See and Swarat Chaudhuri and George Holland and Alex Davies and Sebastian Nowozin and Pushmeet Kohli and Matej Balog},
+  year      = {2025},
+  note      = {Google DeepMind Technical Report},
+  pdf       = {https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf},
+  selected  = {true}
+}
+
+@inproceedings{sehgal2025self,
+  title     = {Self-Evolving Visual Concept Library using Vision-Language Critics},
+  author    = {Atharva Sehgal and Patrick Yuan and Ziniu Hu and Yisong Yue and Jennifer J. Sun and Swarat Chaudhuri},
+  year      = {2025},
+  booktitle = {Conference on Computer Vision and Pattern Recognition (CVPR)},
+  arxiv     = {2504.00185},
+  abstract  = {We study the problem of building a visual concept library for visual recognition. Building effective visual concept libraries is challenging, as manual definition is labor-intensive, while relying solely on LLMs for concept generation can result in concepts that lack discriminative power or fail to account for the complex interactions between them. Our approach, ESCHER, takes a library learning perspective to iteratively discover and improve visual concepts. ESCHER uses a vision-language model (VLM) as a critic to iteratively refine the concept library, including accounting for interactions between concepts and how they affect downstream classifiers. By leveraging the in-context learning abilities of LLMs and the history of performance using various concepts, ESCHER dynamically improves its concept generation strategy based on the VLM critic's feedback. Finally, ESCHER does not require any human annotations, and is thus an automated plug-and-play framework. We empirically demonstrate the ability of ESCHER to learn a concept library for zero-shot, few-shot, and fine-tuning visual classification tasks. This work represents, to our knowledge, the first application of concept library learning to real-world visual tasks.},
+  selected  = {true}
+}
+
+@article{shah2025ltl,
+  title     = {LTL-Constrained Policy Optimization with Cycle Experience Replay},
+  author    = {Ameesh Shah and Cameron Voloshin and Chenxi Yang and Abhinav Verma and Swarat Chaudhuri and Sanjit A. Seshia},
+  year      = {2025},
+  journal   = {Transactions on Machine Learning Research (TMLR)},
+  arxiv     = {2404.11578},
+  abstract  = {Linear Temporal Logic (LTL) offers a precise means for constraining the behavior of reinforcement learning agents. However, in many settings where both satisfaction and optimality conditions are present, LTL is insufficient to capture both. Instead, LTL-constrained policy optimization, where the goal is to optimize a scalar reward under LTL constraints, is needed. This constrained optimization problem proves difficult in deep Reinforcement Learning (DRL) settings, where learned policies often ignore the LTL constraint due to the sparse nature of LTL satisfaction. To alleviate the sparsity issue, we introduce Cycle Experience Replay (CyclER), a novel reward shaping technique that exploits the underlying structure of the LTL constraint to guide a policy towards satisfaction by encouraging partial behaviors compliant with the constraint. We provide a theoretical guarantee that optimizing CyclER will achieve policies that satisfy the LTL constraint with near-optimal probability. We evaluate CyclER in three continuous control domains. Our experimental results show that optimizing CyclER in tandem with the existing scalar reward outperforms existing reward-shaping methods at finding performant LTL-satisfying policies.}
+}
+
+@inproceedings{thakur2025clever,
+  title     = {CLEVER: A Curated Benchmark for Formally Verified Code Generation},
+  author    = {Amitayush Thakur and Jasper Lee and George Tsoukalas and Meghana Sistla and Matthew Zhao and Stefan Zetzsche and Greg Durrett and Yisong Yue and Swarat Chaudhuri},
+  year      = {2025},
+  booktitle = {Neural Information Processing Systems (Dataset and Benchmarks Track)},
+  arxiv     = {2505.13938},
+  abstract  = {We introduce $(\rm C(\small LEVER))$, a high-quality, curated benchmark of 161 problems for end-to-end verified code generation in Lean. Each problem consists of (1) the task of generating a specification that matches a held-out ground-truth specification, and (2) the task of generating a Lean implementation that provably satisfies this specification. Unlike prior benchmarks, $(\rm C(\small LEVER))$ avoids test-case supervision, LLM-generated annotations, and specifications that leak implementation logic or allow vacuous solutions. All outputs are verified post-hoc using Lean's type checker to ensure machine-checkable correctness. We use $(\rm C(\small LEVER))$ to evaluate several few-shot and agentic approaches based on state-of-the-art language models. These methods all struggle to achieve full verification, establishing it as a challenging frontier benchmark for program synthesis and formal reasoning. Our benchmark can be found on GitHub(https://github.com/trishullab/clever) as well as HuggingFace(https://huggingface.co/datasets/amitayusht/clever). All our evaluation code is also available online(https://github.com/trishullab/clever-prover).},
+  selected  = {true}
+}
+
+@inproceedings{tsoukalas2025learning,
+  title     = {Learning Interestingness in Automated Mathematical Theory Formation},
+  author    = {George Tsoukalas and Rahul Saha and Amitayush Thakur and Sabrina Reguyal and Swarat Chaudhuri},
+  year      = {2025},
+  booktitle = {Neural Information Processing Systems (NeurIPS), 2025. (Spotlight presentation)},
+  selected  = {true}
+}
+
+@inproceedings{yang2025formal,
+  title     = {Formal mathematical reasoning: A new frontier in AI},
+  author    = {Kaiyu Yang and Gabriel Poesia and Jingxuan He and Wenda Li and Kristin Lauter and Swarat Chaudhuri and Dawn Song},
+  year      = {2025},
+  booktitle = {International Conference on Machine Learning (ICML), Position Paper Track, 2025. (Spotlight presentation)},
+  arxiv     = {2412.16075},
+  abstract  = {AI for Mathematics (AI4Math) is not only intriguing intellectually but also crucial for AI-driven discovery in science, engineering, and beyond. Extensive efforts on AI4Math have mirrored techniques in NLP, in particular, training large language models on carefully curated math datasets in text form. As a complementary yet less explored avenue, formal mathematical reasoning is grounded in formal systems such as proof assistants, which can verify the correctness of reasoning and provide automatic feedback. In this position paper, we advocate for formal mathematical reasoning and argue that it is indispensable for advancing AI4Math to the next level. In recent years, we have seen steady progress in using AI to perform formal reasoning, including core tasks such as theorem proving and autoformalization, as well as emerging applications such as verifiable generation of code and hardware designs. However, significant challenges remain to be solved for AI to truly master mathematics and achieve broader impact. We summarize existing progress, discuss open challenges, and envision critical milestones to measure future success. At this inflection point for formal mathematical reasoning, we call on the research community to come together to drive transformative advancements in this field.},
+  selected  = {true}
+}
+
+@inproceedings{grayeli2024symbolic,
+  title     = {Symbolic Regression with a Learned Concept Library},
+  author    = {Arya Grayeli and Atharva Sehgal and Omar Costilla Reyes and Miles Cranmer and Swarat Chaudhuri},
+  year      = {2024},
+  booktitle = {Neural Information Processing Systems (NeurIPS)},
+  arxiv     = {2409.09359},
+  abstract  = {We present a novel method for symbolic regression (SR), the task of searching for compact programmatic hypotheses that best explain a dataset. The problem is commonly solved using genetic algorithms; we show that we can enhance such methods by inducing a library of abstract textual concepts. Our algorithm, called LaSR, uses zero-shot queries to a large language model (LLM) to discover and evolve concepts occurring in known high-performing hypotheses. We discover new hypotheses using a mix of standard evolutionary steps and LLM-guided steps (obtained through zero-shot LLM queries) conditioned on discovered concepts. Once discovered, hypotheses are used in a new round of concept abstraction and evolution. We validate LaSR on the Feynman equations, a popular SR benchmark, as well as a set of synthetic tasks. On these benchmarks, LaSR substantially outperforms a variety of state-of-the-art SR approaches based on deep learning and evolutionary algorithms. Moreover, we show that LaSR can be used to discover a novel and powerful scaling law for LLMs.},
+  selected  = {true}
+}
+
+@inproceedings{jain2024prompt,
+  title     = {Prompt Tuning Strikes Back: Customizing Foundation Models with Low-Rank Prompt Adaptation},
+  author    = {Abhinav Jain and Swarat Chaudhuri and Thomas Reps and Chris Jermaine},
+  year      = {2024},
+  booktitle = {Neural Information Processing Systems (NeurIPS)},
+  arxiv     = {2405.15282},
+  abstract  = {Parameter-Efficient Fine-Tuning (PEFT) has become the standard for customising Foundation Models (FMs) to user-specific downstream tasks. However, typical PEFT methods require storing multiple task-specific adapters, creating scalability issues as these adapters must be housed and run at the FM server. Traditional prompt tuning offers a potential solution by customising them through task-specific input prefixes, but it under-performs compared to other PEFT methods like LoRA. To address this gap, we propose Low-Rank Prompt Adaptation (LoPA), a prompt-tuning-based approach that performs on par with state-of-the-art PEFT methods and full fine-tuning while being more parameter-efficient and not requiring a server-based adapter. LoPA generates soft prompts by balancing between sharing task-specific information across instances and customization for each instance. It uses a low-rank decomposition of the soft-prompt component encoded for each instance to achieve parameter efficiency. We provide a comprehensive evaluation on multiple natural language understanding and code generation and understanding tasks across a wide range of foundation models with varying sizes.}
+}
+
+@inproceedings{miltner2024relational,
+  title     = {Relational Synthesis of Recursive Programs via Constrained Tree Automata},
+  author    = {Anders Miltner and Ziteng Wang and Swarat Chaudhuri and Isil Dillig},
+  year      = {2024},
+  booktitle = {International Conference on Computer-Aided Verification (CAV)},
+  pdf       = {https://link.springer.com/content/pdf/10.1007/978-3-031-65633-0_3.pdf},
+  abstract  = {. In this paper, we present a new synthesis method based on the novel concept of constrained tree automaton (CTA) . A CTA is a variant of a finite tree automaton (FTA) where the acceptance of a term by the automaton is conditioned upon the logical satisfiability of a formula. In the context of program synthesis, CTAs allow the construction of a more precise version space than FTAs by ruling out programs that make inconsistent assumptions about the unknown semantics of functions under synthesis. We apply our proposed algorithm to synthesizing recursive (or mutually recursive) procedures from relational specifications and demonstrate that our method allows solving synthesis problems that are beyond the scope of existing approaches.}
+}
+
+@inproceedings{nie2024online,
+  title     = {Online Cascade Learning for Efficient Inference over Streams},
+  author    = {Lunyiu Nie and Zhimin Ding and Erdong Hu and Chris Jermaine and Swarat Chaudhuri},
+  year      = {2024},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  arxiv     = {2402.04513},
+  abstract  = {Large Language Models (LLMs) have a natural role in answering complex queries about data streams, but the high computational cost of LLM inference makes them infeasible in many such tasks. We propose online cascade learning, the first approach to address this challenge. The objective here is to learn a "cascade" of models, starting with lower-capacity models (such as logistic regression) and ending with a powerful LLM, along with a deferral policy that determines the model to be used on a given input. We formulate the task of learning cascades online as an imitation-learning problem, where smaller models are updated over time imitating the collected LLM demonstrations, and give a no-regret algorithm for the problem. Experimental results across four benchmarks show that our method parallels LLMs in accuracy while cutting down inference costs by as much as 90% with strong robustness against input distribution shifts, underscoring its efficacy and adaptability in stream processing.}
+}
+
+@inproceedings{sehgal2024neurosymbolic,
+  title     = {Neurosymbolic Grounding for Compositional World Models},
+  author    = {Atharva Sehgal and Arya Grayeli and Jennifer J. Sun and Swarat Chaudhuri},
+  year      = {2024},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  arxiv     = {2310.12690},
+  abstract  = {We introduce Cosmos, a framework for object-centric world modeling that is designed for compositional generalization (CompGen), i.e., high performance on unseen input scenes obtained through the composition of known visual "atoms." The central insight behind Cosmos is the use of a novel form of neurosymbolic grounding. Specifically, the framework introduces two new tools: (i) neurosymbolic scene encodings, which represent each entity in a scene using a real vector computed using a neural encoder, as well as a vector of composable symbols describing attributes of the entity, and (ii) a neurosymbolic attention mechanism that binds these entities to learned rules of interaction. Cosmos is end-to-end differentiable; also, unlike traditional neurosymbolic methods that require representations to be manually mapped to symbols, it computes an entity's symbolic attributes using vision-language foundation models. Through an evaluation that considers two different forms of CompGen on an established blocks-pushing domain, we show that the framework establishes a new state-of-the-art for CompGen in world modeling. Artifacts are available at: https://trishullab.github.io/cosmos-web/}
+}
+
+@article{sistla2024cflobdds,
+  title     = {CFLOBDDs: Context-Free-Language Ordered Binary Decision Diagrams},
+  author    = {Meghana A. Sistla and Swarat Chaudhuri and Thomas Reps},
+  year      = {2024},
+  journal   = {ACM Transactions on Programming Languages and Systems (TOPLAS), 2024. Journal-first presentation at PLDI},
+  arxiv     = {2211.06818},
+  abstract  = {This paper presents a new compressed representation of Boolean functions, called CFLOBDDs (for Context-Free-Language Ordered Binary Decision Diagrams). They are essentially a plug-compatible alternative to BDDs (Binary Decision Diagrams), and hence useful for representing certain classes of functions, matrices, graphs, relations, etc. in a highly compressed fashion. CFLOBDDs share many of the good properties of BDDs, but--in the best case--the CFLOBDD for a Boolean function can be exponentially smaller than any BDD for that function. Compared with the size of the decision tree for a function, a CFLOBDD--again, in the best case--can give a double-exponential reduction in size. They have the potential to permit applications to (i) execute much faster, and (ii) handle much larger problem instances than has been possible heretofore. CFLOBDDs are a new kind of decision diagram that go beyond BDDs (and their many relatives). The key insight is a new way to reuse sub-decision-diagrams: components of CFLOBDDs are structured hierarchically, so that sub-decision-diagrams can be treated as standalone ''procedures'' and reused. We applied CFLOBDDs to the problem of simulating quantum circuits, and found that for several standard problems the improvement in scalability--compared to simulation using BDDs--is quite dramatic. In particular, the number of qubits that could be handled using CFLOBDDs was larger, compared to BDDs, by a factor of 128x for GHZ; 1,024x for BV; 8,192x for DJ; and 128x for Grover's algorithm. (With a 15-minute timeout, the number of qubits that CFLOBDDs can handle are 65,536 for GHZ, 524,288 for BV; 4,194,304 for DJ; and 4,096 for Grover's Algorithm.)}
+}
+
+@inproceedings{sistla2024weighted,
+  title     = {Weighted Context-Free-Language Ordered Binary Decision Diagrams},
+  author    = {Meghana A. Sistla and Swarat Chaudhuri and Thomas Reps},
+  year      = {2024},
+  booktitle = {Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA)},
+  arxiv     = {2305.13610},
+  abstract  = {This paper presents a new data structure, called \emph(Weighted Context-Free-Language Ordered BDDs) (WCFLOBDDs), which are a hierarchically structured decision diagram, akin to Weighted BDDs (WBDDs) enhanced with a procedure-call mechanism. For some functions, WCFLOBDDs are exponentially more succinct than WBDDs. They are potentially beneficial for representing functions of type $\mathbb(B)^n \rightarrow D$, when a function's image $V \subseteq D$ has many different values. We apply WCFLOBDDs in quantum-circuit simulation, and find that they perform better than WBDDs on certain benchmarks. With a 15-minute timeout, the number of qubits that can be handled by WCFLOBDDs is 1-64$\times$ that of WBDDs (and 1-128$\times$ that of CFLOBDDs, which are an unweighted version of WCFLOBDDs). These results support the conclusion that for this application -- from the standpoint of problem size, measured as the number of qubits -- WCFLOBDDs provide the best of both worlds: performance roughly matches whichever of WBDDs and CFLOBDDs is better. (From the standpoint of running time, the results are more nuanced.)}
+}
+
+@inproceedings{sprague2024musr,
+  title     = {MuSR: Testing the Limits of Chain-of-thought with Multistep Soft Reasoning},
+  author    = {Zayne Sprague and Xi Ye and Kaj Bostrom and Swarat Chaudhuri and Greg Durrett},
+  year      = {2024},
+  booktitle = {International Conference on Learning Representations (ICLR), 2024. (Spotlight presentation)},
+  arxiv     = {2310.16049},
+  abstract  = {While large language models (LLMs) equipped with techniques like chain-of-thought prompting have demonstrated impressive capabilities, they still fall short in their ability to reason robustly in complex settings. However, evaluating LLM reasoning is challenging because system capabilities continue to grow while benchmark datasets for tasks like logical deduction have remained static. We introduce MuSR, a dataset for evaluating language models on multistep soft reasoning tasks specified in a natural language narrative. This dataset has two crucial features. First, it is created through a novel neurosymbolic synthetic-to-natural generation algorithm, enabling the construction of complex reasoning instances that challenge GPT-4 (e.g., murder mysteries roughly 1000 words in length) and which can be scaled further as more capable LLMs are released. Second, our dataset instances are free text narratives corresponding to real-world domains of reasoning; this makes it simultaneously much more challenging than other synthetically-crafted benchmarks while remaining realistic and tractable for human annotators to solve with high accuracy. We evaluate a range of LLMs and prompting techniques on this dataset and characterize the gaps that remain for techniques like chain-of-thought to perform robust reasoning.}
+}
+
+@inproceedings{thakur2024context,
+  title     = {An In-Context Learning Agent for Formal Theorem Proving},
+  author    = {Amitayush Thakur and George Tsoukalas and Yeming Wen and Jimmy Xin and Swarat Chaudhuri},
+  year      = {2024},
+  booktitle = {First Conference on Language Modeling (COLM)},
+  arxiv     = {2310.04353},
+  abstract  = {We present an in-context learning agent for formal theorem-proving in environments like Lean and Coq. Current state-of-the-art models for the problem are finetuned on environment-specific proof data. By contrast, our approach, called COPRA, repeatedly asks a high-capacity, general-purpose large language model (GPT-4) to propose tactic applications from within a stateful backtracking search. Proposed tactics are executed in the underlying proof environment. Feedback from the execution is used to build the prompt for the next model query, along with selected information from the search history and lemmas retrieved from an external database. We evaluate our implementation of COPRA on the miniF2F benchmark for Lean and a set of Coq tasks from the CompCert project. On these benchmarks, COPRA significantly outperforms few-shot invocations of GPT-4. It also compares favorably against finetuning-based approaches, outperforming ReProver, a state-of-the-art finetuned approach for Lean, in terms of the pass@1 metric. Our code and data are available at https://github.com/trishullab/copra.}
+}
+
+@inproceedings{tsoukalas2024putnambench,
+  title     = {PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition},
+  author    = {George Tsoukalas and Jasper Lee and John Jennings and Jimmy Xin and Michelle Ding and Michael Jennings and Amitayush Thakur and Swarat Chaudhuri},
+  year      = {2024},
+  booktitle = {Neural Information Processing Systems (NeurIPS)},
+  arxiv     = {2407.11214},
+  abstract  = {We present PutnamBench, a new multi-language benchmark for evaluating the ability of neural theorem-provers to solve competition mathematics problems. PutnamBench consists of 1692 hand-constructed formalizations of 640 theorems sourced from the William Lowell Putnam Mathematical Competition, the premier undergraduate-level mathematics competition in North America. All the problems have formalizations in Lean 4 and Isabelle; a substantial subset also has Coq formalizations. PutnamBench requires significant problem-solving ability and proficiency in a broad range of topics taught in undergraduate mathematics courses. We use PutnamBench to evaluate several established neural and symbolic theorem-provers. These approaches can only solve a handful of the PutnamBench problems, establishing the benchmark as a difficult open challenge for research on neural theorem-proving. PutnamBench is available at https://github.com/trishullab/PutnamBench.},
+  selected  = {true}
+}
+
+@inproceedings{valkov2024probabilistic,
+  title     = {A Probabilistic Framework for Modular Continual Learning},
+  author    = {Lazar Valkov and Akash Srivastava and Swarat Chaudhuri and Charles Sutton},
+  year      = {2024},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  arxiv     = {2306.06545},
+  abstract  = {Modular approaches that use a different composition of modules for each problem are a promising direction in continual learning (CL). However, searching through the large, discrete space of module compositions is challenging, especially because evaluating a composition's performance requires a round of neural network training. We address this challenge through a modular CL framework, PICLE, that uses a probabilistic model to cheaply compute the fitness of each composition, allowing PICLE to achieve both perceptual, few-shot and latent transfer. The model combines prior knowledge about good module compositions with dataset-specific information. We evaluate PICLE using two benchmark suites designed to assess different desiderata of CL techniques. Comparing to a wide range of approaches, we show that PICLE is the first modular CL algorithm to achieve perceptual, few-shot and latent transfer while scaling well to large search spaces, outperforming previous state-of-the-art modular CL approaches on long problem sequences.}
+}
+
+@inproceedings{wen2024batched,
+  title     = {Batched Low-Rank Adaptation of Foundation Models},
+  author    = {Yeming Wen and Swarat Chaudhuri},
+  year      = {2024},
+  booktitle = {International Conference on Learning Representations (ICLR), 2024. (Oral presentation)},
+  arxiv     = {2312.05677},
+  abstract  = {Low-Rank Adaptation (LoRA) has recently gained attention for fine-tuning foundation models by incorporating trainable low-rank matrices, thereby reducing the number of trainable parameters. While LoRA offers numerous advantages, its applicability for real-time serving to a diverse and global user base is constrained by its incapability to handle multiple task-specific adapters efficiently. This imposes a performance bottleneck in scenarios requiring personalized, task-specific adaptations for each incoming request. To mitigate this constraint, we introduce Fast LoRA (FLoRA), a framework in which each input example in a minibatch can be associated with its unique low-rank adaptation weights, allowing for efficient batching of heterogeneous requests. We empirically demonstrate that FLoRA retains the performance merits of LoRA, showcasing competitive results on the MultiPL-E code generation benchmark spanning over 8 languages and a multilingual speech recognition task across 6 languages.}
+}
+
+@inproceedings{wen2024synthesize,
+  title     = {Synthesize, Partition, then Adapt: Eliciting Diverse Samples from Foundation Models},
+  author    = {Yeming Wen and Swarat Chaudhuri},
+  year      = {2024},
+  booktitle = {Neural Information Processing Systems (NeurIPS)}
+}
+
+@inproceedings{yang2024certifiably,
+  title     = {Certifiably Robust Reinforcement Learning through Model-Based Abstract Interpretation},
+  author    = {Chenxi Yang and Greg Anderson and Swarat Chaudhuri},
+  year      = {2024},
+  booktitle = {IEEE Conference on Secure and Trustworthy Machine Learning (SatML)},
+  arxiv     = {2301.11374},
+  abstract  = {We present a reinforcement learning (RL) framework in which the learned policy comes with a machine-checkable certificate of provable adversarial robustness. Our approach, called CAROL, learns a model of the environment. In each learning iteration, it uses the current version of this model and an external abstract interpreter to construct a differentiable signal for provable robustness. This signal is used to guide learning, and the abstract interpretation used to construct it directly leads to the robustness certificate returned at convergence. We give a theoretical analysis that bounds the worst-case accumulative reward of CAROL. We also experimentally evaluate CAROL on four MuJoCo environments with continuous state and action spaces. On these tasks, CAROL learns policies that, when contrasted with policies from the state-of-the-art robust RL algorithms, exhibit: (i) markedly enhanced certified performance lower bounds; and (ii) comparable performance under empirical adversarial attacks.}
+}
+
+@inproceedings{anderson2023guiding,
+  title     = {Guiding Safe Exploration with Weakest Preconditions},
+  author    = {Greg Anderson and Swarat Chaudhuri and Isil Dillig},
+  year      = {2023},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  arxiv     = {2209.14148},
+  abstract  = {In reinforcement learning for safety-critical settings, it is often desirable for the agent to obey safety constraints at all points in time, including during training. We present a novel neurosymbolic approach called SPICE to solve this safe exploration problem. SPICE uses an online shielding layer based on symbolic weakest preconditions to achieve a more precise safety analysis than existing tools without unduly impacting the training process. We evaluate the approach on a suite of continuous control benchmarks and show that it can achieve comparable performance to existing safe learning techniques while incurring fewer safety violations. Additionally, we present theoretical results showing that SPICE converges to the optimal safe policy under reasonable assumptions.}
+}
+
+@inproceedings{saxena2023foundation,
+  title     = {On a Foundation Model for Operating Systems},
+  author    = {Divyanshu Saxena and Nihal Sharma and Donghyun Kim and Rohit Dwivedula and Jiayi Chen and Chenxi Yang and Sriram Ravula and Zichao Hu and Aditya Akella and Sebastian Angel and Joydeep Biswas and Swarat Chaudhuri and Isil Dillig and Alex Dimakis and P Godfrey and Daehyeok Kim and Chris Rossbach and Gang Wang},
+  year      = {2023},
+  booktitle = {Machine Learning for Systems Workshop at 37th NeurIPS Conference},
+  arxiv     = {2310.16049},
+  abstract  = {While large language models (LLMs) equipped with techniques like chain-of-thought prompting have demonstrated impressive capabilities, they still fall short in their ability to reason robustly in complex settings. However, evaluating LLM reasoning is challenging because system capabilities continue to grow while benchmark datasets for tasks like logical deduction have remained static. We introduce MuSR, a dataset for evaluating language models on multistep soft reasoning tasks specified in a natural language narrative. This dataset has two crucial features. First, it is created through a novel neurosymbolic synthetic-to-natural generation algorithm, enabling the construction of complex reasoning instances that challenge GPT-4 (e.g., murder mysteries roughly 1000 words in length) and which can be scaled further as more capable LLMs are released. Second, our dataset instances are free text narratives corresponding to real-world domains of reasoning; this makes it simultaneously much more challenging than other synthetically-crafted benchmarks while remaining realistic and tractable for human annotators to solve with high accuracy. We evaluate a range of LLMs and prompting techniques on this dataset and characterize the gaps that remain for techniques like chain-of-thought to perform robust reasoning.}
+}
+
+@inproceedings{sistla2023symbolic,
+  title     = {Symbolic Quantum Simulation with Quasimodo},
+  author    = {Meghana A. Sistla and Swarat Chaudhuri and Thomas Reps},
+  year      = {2023},
+  booktitle = {International Conference on Computer-Aided Verification (CAV)},
+  arxiv     = {2302.04349},
+  abstract  = {The simulation of quantum circuits on classical computers is an important problem in quantum computing. Such simulation requires representations of distributions over very large sets of basis vectors, and recent work has used symbolic data-structures such as Binary Decision Diagrams (BDDs) for this purpose. In this tool paper, we present Quasimodo, an extensible, open-source Python library for symbolic simulation of quantum circuits. Quasimodo is specifically designed for easy extensibility to other backends. Quasimodo allows simulations of quantum circuits, checking properties of the outputs of quantum circuits, and debugging quantum circuits. It also allows the user to choose from among several symbolic data-structures -- both unweighted and weighted BDDs, and a recent structure called Context-Free-Language Ordered Binary Decision Diagrams (CFLOBDDs) -- and can be easily extended to support other symbolic data-structures.}
+}
+
+@inproceedings{spraguenddeductive,
+  title     = {Deductive Additivity for Planning of Natural Language Proofs},
+  author    = {Zayne Sprague and Kaj Bostrom and Swarat Chaudhuri and Greg Durrett},
+  year      = {2023},
+  booktitle = {Workshop on Natural Language Reasoning and Structured Explanations (NLRSE)},
+  arxiv     = {2310.16049},
+  abstract  = {While large language models (LLMs) equipped with techniques like chain-of-thought prompting have demonstrated impressive capabilities, they still fall short in their ability to reason robustly in complex settings. However, evaluating LLM reasoning is challenging because system capabilities continue to grow while benchmark datasets for tasks like logical deduction have remained static. We introduce MuSR, a dataset for evaluating language models on multistep soft reasoning tasks specified in a natural language narrative. This dataset has two crucial features. First, it is created through a novel neurosymbolic synthetic-to-natural generation algorithm, enabling the construction of complex reasoning instances that challenge GPT-4 (e.g., murder mysteries roughly 1000 words in length) and which can be scaled further as more capable LLMs are released. Second, our dataset instances are free text narratives corresponding to real-world domains of reasoning; this makes it simultaneously much more challenging than other synthetically-crafted benchmarks while remaining realistic and tractable for human annotators to solve with high accuracy. We evaluate a range of LLMs and prompting techniques on this dataset and characterize the gaps that remain for techniques like chain-of-thought to perform robust reasoning.}
+}
+
+@article{bansal2022comparator,
+  title     = {Comparator Automata in Quantitative Verification},
+  author    = {Suguman Bansal and Swarat Chaudhuri and Moshe Y. Vardi},
+  year      = {2022},
+  journal   = {Logical Methods in Computer Science (LMCS)},
+  arxiv     = {1812.06569},
+  pdf       = {https://lmcs.episciences.org/9865/pdf},
+  abstract  = {The notion of comparison between system runs is fundamental in formal verification. This concept is implicitly present in the verification of qualitative systems, and is more pronounced in the verification of quantitative systems. In this work, we identify a novel mode of comparison in quantitative systems: the online comparison of the aggregate values of two sequences of quantitative weights. This notion is embodied by comparator automata (comparators, in short), a new class of automata that read two infinite sequences of weights synchronously and relate their aggregate values. We show that aggregate functions that can be represented with B\"uchi automaton result in comparators that are finite-state and accept by the B\"uchi condition as well. Such $\omega$-regular comparators further lead to generic algorithms for a number of well-studied problems, including the quantitative inclusion and winning strategies in quantitative graph games with incomplete information, as well as related non-decision problems, such as obtaining a finite representation of all counterexamples in the quantitative inclusion problem. We study comparators for two aggregate functions: discounted-sum and limit-average. We prove that the discounted-sum comparator is $\omega$-regular iff the discount-factor is an integer. Not every aggregate function, however, has an $\omega$-regular comparator. Specifically, we show that the language of sequence-pairs for which limit-average aggregates exist is neither $\omega$-regular nor $\omega$-context-free. Given this result, we introduce the notion of prefix-average as a relaxation of limit-average aggregation, and show that it admits $\omega$-context-free comparators i.e. comparator automata expressed by B\"uchi pushdown automata.}
+}
+
+@inproceedings{bostromndnatural,
+  title     = {Natural Language Deduction through Search over Statement Compositions},
+  author    = {Kaj Bostrom and Zayne Sprague and Swarat Chaudhuri and Greg Durrett},
+  year      = {2022},
+  booktitle = {Findings of Empirical Methods in Natural Language Processing (EMNLP-Findings)},
+  arxiv     = {2201.06028},
+  abstract  = {In settings from fact-checking to question answering, we frequently want to know whether a collection of evidence (premises) entails a hypothesis. Existing methods primarily focus on the end-to-end discriminative version of this task, but less work has treated the generative version in which a model searches over the space of statements entailed by the premises to constructively derive the hypothesis. We propose a system for doing this kind of deductive reasoning in natural language by decomposing the task into separate steps coordinated by a search procedure, producing a tree of intermediate conclusions that faithfully reflects the system's reasoning process. Our experiments on the EntailmentBank dataset (Dalvi et al., 2021) demonstrate that the proposed system can successfully prove true statements while rejecting false ones. Moreover, it produces natural language explanations with a 17% absolute higher step validity than those produced by an end-to-end T5 model.}
+}
+
+@inproceedings{chowdhury2022meta,
+  title     = {Meta-Meta Classification for One-Shot Learning},
+  author    = {Arkabandhu Chowdhury and Dipak Chaudhari and Swarat Chaudhuri and Chris Jermaine},
+  year      = {2022},
+  booktitle = {Workshop on Applications of Computer Vision (WACV)},
+  arxiv     = {2004.08083},
+  abstract  = {We present a new approach, called meta-meta classification, to learning in small-data settings. In this approach, one uses a large set of learning problems to design an ensemble of learners, where each learner has high bias and low variance and is skilled at solving a specific type of learning problem. The meta-meta classifier learns how to examine a given learning problem and combine the various learners to solve the problem. The meta-meta learning approach is especially suited to solving few-shot learning tasks, as it is easier to learn to classify a new learning problem with little data than it is to apply a learning algorithm to a small data set. We evaluate the approach on a one-shot, one-class-versus-all classification task and show that it is able to outperform traditional meta-learning as well as ensembling approaches.}
+}
+
+@inproceedings{miltner2022bottom,
+  title     = {Bottom-Up Synthesis of Recursive Functional Programs using Angelic Execution},
+  author    = {Anders Miltner and Adrian Trejo Nuñez and Ana Brendel and Swarat Chaudhuri and Isil Dillig},
+  year      = {2022},
+  booktitle = {Principles of Programming Languages (POPL), 2022. (Distinguished paper)},
+  arxiv     = {2107.06253},
+  abstract  = {We present a novel bottom-up method for the synthesis of functional recursive programs. While bottom-up synthesis techniques can work better than top-down methods in certain settings, there is no prior technique for synthesizing recursive programs from logical specifications in a purely bottom-up fashion. The main challenge is that effective bottom-up methods need to execute sub-expressions of the code being synthesized, but it is impossible to execute a recursive subexpression of a program that has not been fully constructed yet. In this paper, we address this challenge using the concept of angelic semantics. Specifically, our method finds a program that satisfies the specification under angelic semantics (we refer to this as angelic synthesis), analyzes the assumptions made during its angelic execution, uses this analysis to strengthen the specification, and finally reattempts synthesis with the strengthened specification. Our proposed angelic synthesis algorithm is based on version space learning and therefore deals effectively with many incremental synthesis calls made during the overall algorithm. We have implemented this approach in a prototype called Burst and evaluate it on synthesis problems from prior work. Our experiments show that Burst is able to synthesize a solution to 94% of the benchmarks in our benchmark suite, outperforming prior work.}
+}
+
+@inproceedings{sprague2022natural,
+  title     = {Natural Language Deduction with Incomplete Information},
+  author    = {Zayne Sprague and Kaj Bostrom and Swarat Chaudhuri and Greg Durrett},
+  year      = {2022},
+  booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+  arxiv     = {2211.00614},
+  abstract  = {A growing body of work studies how to answer a question or verify a claim by generating a natural language "proof": a chain of deductive inferences yielding the answer based on a set of premises. However, these methods can only make sound deductions when they follow from evidence that is given. We propose a new system that can handle the underspecified setting where not all premises are stated at the outset; that is, additional assumptions need to be materialized to prove a claim. By using a natural language generation model to abductively infer a premise given another premise and a conclusion, we can impute missing pieces of evidence needed for the conclusion to be true. Our system searches over two fringes in a bidirectional fashion, interleaving deductive (forward-chaining) and abductive (backward-chaining) generation steps. We sample multiple possible outputs for each step to achieve coverage of the search space, at the same time ensuring correctness by filtering low-quality generations with a round-trip validation procedure. Results on a modified version of the EntailmentBank dataset and a new dataset called Everyday Norms: Why Not? show that abductive generation with validation can recover premises across in- and out-of-domain settings.}
+}
+
+@inproceedings{sun2022neurosymbolic,
+  title     = {Neurosymbolic Programming for Science},
+  author    = {Jennifer J. Sun and Megan Tjandrasuwita and Atharva Sehgal and Armando Solar-Lezama and Swarat Chaudhuri and Yisong Yue and Omar Costilla Reyes},
+  year      = {2022},
+  booktitle = {NeurIPS 2022 AI for Science Workshop},
+  arxiv     = {2210.05050},
+  abstract  = {Neurosymbolic Programming (NP) techniques have the potential to accelerate scientific discovery. These models combine neural and symbolic components to learn complex patterns and representations from data, using high-level concepts or known constraints. NP techniques can interface with symbolic domain knowledge from scientists, such as prior knowledge and experimental context, to produce interpretable outputs. We identify opportunities and challenges between current NP models and scientific workflows, with real-world examples from behavior analysis in science: to enable the use of NP broadly for workflows across the natural and social sciences.}
+}
+
+@inproceedings{voloshin2022policy,
+  title     = {Policy Optimization with Linear Temporal Logic Constraints},
+  author    = {Cameron Voloshin and Hoang M. Le and Swarat Chaudhuri and Yisong Yue},
+  year      = {2022},
+  booktitle = {Neural Information Processing Systems (NeurIPS)},
+  arxiv     = {2206.09546},
+  abstract  = {We study the problem of policy optimization (PO) with linear temporal logic (LTL) constraints. The language of LTL allows flexible description of tasks that may be unnatural to encode as a scalar cost function. We consider LTL-constrained PO as a systematic framework, decoupling task specification from policy selection, and as an alternative to the standard of cost shaping. With access to a generative model, we develop a model-based approach that enjoys a sample complexity analysis for guaranteeing both task satisfaction and cost optimality (through a reduction to a reachability problem). Empirically, our algorithm can achieve strong performance even in low-sample regimes.}
+}
+
+@inproceedings{yang2022safe,
+  title     = {Safe Neurosymbolic Learning with Differentiable Symbolic Execution},
+  author    = {Chenxi Yang and Swarat Chaudhuri},
+  year      = {2022},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  arxiv     = {2203.07671},
+  abstract  = {We study the problem of learning worst-case-safe parameters for programs that use neural networks as well as symbolic, human-written code. Such neurosymbolic programs arise in many safety-critical domains. However, because they can use nondifferentiable operations, it is hard to learn their parameters using existing gradient-based approaches to safe learning. Our approach to this problem, Differentiable Symbolic Execution (DSE), samples control flow paths in a program, symbolically constructs worst-case "safety losses" along these paths, and backpropagates the gradients of these losses through program operations using a generalization of the REINFORCE estimator. We evaluate the method on a mix of synthetic tasks and real-world benchmarks. Our experiments show that DSE significantly outperforms the state-of-the-art DiffAI method on these tasks.}
+}
+
+@article{zhan2022unsupervised,
+  title     = {Unsupervised Learning of Neurosymbolic Encoders},
+  author    = {Eric Zhan and Jennifer J. Sun and Ann Kennedy and Yisong Yue and Swarat Chaudhuri},
+  year      = {2022},
+  journal   = {Transactions on Machine Learning Research (TMLR)},
+  arxiv     = {2107.13132},
+  abstract  = {We present a framework for the unsupervised learning of neurosymbolic encoders, which are encoders obtained by composing neural networks with symbolic programs from a domain-specific language. Our framework naturally incorporates symbolic expert knowledge into the learning process, which leads to more interpretable and factorized latent representations compared to fully neural encoders. We integrate modern program synthesis techniques with the variational autoencoding (VAE) framework, in order to learn a neurosymbolic encoder in conjunction with a standard decoder. The programmatic descriptions from our encoders can benefit many analysis workflows, such as in behavior modeling where interpreting agent actions and movements is important. We evaluate our method on learning latent representations for real-world trajectory data from animal biology and sports analytics. We show that our approach offers significantly better separation of meaningful categories than standard VAEs and leads to practical gains on downstream analysis tasks, such as for behavior classification.}
+}
+
+@inproceedings{bostrom2021flexible,
+  title     = {Flexible Generation of Natural Language Deductions},
+  author    = {Kaj Bostrom and Xinyu Zhao and Swarat Chaudhuri and Greg Durrett},
+  year      = {2021},
+  booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+  arxiv     = {2104.08825},
+  abstract  = {An interpretable system for open-domain reasoning needs to express its reasoning process in a transparent form. Natural language is an attractive representation for this purpose -- it is both highly expressive and easy for humans to understand. However, manipulating natural language statements in logically consistent ways is hard: models must cope with variation in how meaning is expressed while remaining precise. In this paper, we describe ParaPattern, a method for building models to generate deductive inferences from diverse natural language inputs without direct human supervision. We train BART-based models (Lewis et al., 2020) to generate the result of applying a particular logical operation to one or more premise statements. Crucially, we develop a largely automated pipeline for constructing suitable training examples from Wikipedia. We evaluate our models using out-of-domain sentence compositions from the QASC (Khot et al., 2020) and EntailmentBank (Dalvi et al., 2021) datasets as well as targeted perturbation sets. Our results show that our models are substantially more accurate and flexible than baseline systems. ParaPattern achieves 85% validity on examples of the 'substitution' operation from EntailmentBank without the use of any in-domain training data, matching the performance of a model fine-tuned for EntailmentBank. The full source code for our method is publicly available.}
+}
+
+@article{chaudhuri2021neurosymbolic,
+  title     = {Neurosymbolic Programming},
+  author    = {Swarat Chaudhuri and Kevin Ellis and Oleksandr Polozov and Rishabh Singh and Armando Solar-Lezama and Yisong Yue},
+  year      = {2021},
+  journal   = {Foundations and Trends in Programming Languages (FnT)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/PGL-049-Plain.pdf},
+  abstract  = {We survey recent work on neurosymbolic programming, an emerging area that bridges the areas of deep learning and program synthesis. Like in classic machine learning, the goal here is to learn functions from data. However, these functions are represented as programs that can use neural modules in addition to symbolic primitives and are induced using a combination of symbolic search and gradient-based optimization. Neurosymbolic programming can offer multiple advantages over end-to-end deep learning. Programs can sometimes naturally represent long-horizon, procedural tasks that are difficult to perform using deep networks. Neurosymbolic representations are also, commonly, easier to interpret and formally verify than neural networks. The restrictions of a programming language can serve as a form of regularization and lead to more generalizable and data-efficient Swarat Chaudhuri, Kevin Ellis, Oleksandr Polozov, Rishabh Singh, Armando SolarLezama and Yisong Yue (2021), “Neurosymbolic Programming”, Foundations and Trends® in Programming Languages: Vol. 7, No. 3, pp 158–243. DOI: 10.1561/2500000049. ©2021 S. Chaudhuri et al. The version of record is available at: http://dx.doi.org/10.1561/2500000049},
+  selected  = {true}
+}
+
+@inproceedings{chowdhury2021few,
+  title     = {Few-shot Image Classification: Just Use a Library of Pre-trained Feature Extractors and a Simple Classifier},
+  author    = {Arkabandhu Chowdhury and Mingchao Jiang and Swarat Chaudhuri and Chris Jermaine},
+  year      = {2021},
+  booktitle = {International Conference on Computer Vision (ICCV)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/iccv21-fewshot.pdf}
+}
+
+@inproceedings{mukherjee2021neural,
+  title     = {Neural Program Generation Modulo Static Analysis},
+  author    = {Rohan Mukherjee and Yeming Wen and Dipak Chaudhari and Thomas W. Reps and Swarat Chaudhuri and Chris Jermaine},
+  year      = {2021},
+  booktitle = {Neural Information Processing Systems (NeurIPS), 2021. (Spotlight paper)},
+  arxiv     = {2111.01633},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/neurips21-nsg.pdf},
+  abstract  = {State-of-the-art neural models of source code tend to be evaluated on the generation of individual expressions and lines of code, and commonly fail on long-horizon tasks such as the generation of entire method bodies. We propose to address this deficiency using weak supervision from a static program analyzer. Our neurosymbolic method allows a deep generative model to symbolically compute, using calls to a static-analysis tool, long-distance semantic relationships in the code that it has already generated. During training, the model observes these relationships and learns to generate programs conditioned on them. We apply our approach to the problem of generating entire Java methods given the remainder of the class that contains the method. Our experiments show that the approach substantially outperforms state-of-the-art transformers and a model that explicitly tries to learn program semantics on this task, both in terms of producing programs free of basic semantic errors and in terms of syntactically matching the ground truth.}
+}
+
+@inproceedings{sobti2021sampling,
+  title     = {A Sampling-based Motion Planning Framework for Complex Motor Actions},
+  author    = {Shlok Sobti and Rahul Shome and Swarat Chaudhuri and Lydia E. Kavraki},
+  year      = {2021},
+  booktitle = {International Conference on Intelligent Robots and Systems (IROS)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/iros21-dmp.pdf},
+  abstract  = {We present a framework for planning complex motor actions such as pouring or scooping from arbitrary start states in cluttered real-world scenes. Traditional approaches to such tasks use dynamic motion primitives (DMPs) learned from human demonstrations. We enhance a recently proposed state-of-the-art DMP technique capable of obstacle avoidance by including them within a novel hybrid framework. This complements DMPs with sampling-based motion planning algorithms, using the latter to explore the scene and reach promising regions from which a DMP can successfully complete the task. Experiments indicate that even obstacle-aware DMPs suffer in task success when used in scenarios which largely differ from the trained demonstration in terms of the start, goal, and obstacles. Our hybrid approach significantly outperforms obstacle-aware DMPs by successfully completing tasks in cluttered scenes for a pouring task in simulation. We further demonstrate our method on a real robot for pouring and scooping tasks.}
+}
+
+@inproceedings{tjandrasuwita2021interpreting,
+  title     = {Interpreting Expert Annotation Differences in Animal Behavior},
+  author    = {Megan Tjandrasuwita and Jennifer J Sun and Ann Kennedy and Swarat Chaudhuri and Yisong Yue},
+  year      = {2021},
+  booktitle = {Computer Vision for Animals Workshop},
+  arxiv     = {2106.06114},
+  abstract  = {Hand-annotated data can vary due to factors such as subjective differences, intra-rater variability, and differing annotator expertise. We study annotations from different experts who labelled the same behavior classes on a set of animal behavior videos, and observe a variation in annotation styles. We propose a new method using program synthesis to help interpret annotation differences for behavior analysis. Our model selects relevant trajectory features and learns a temporal filter as part of a program, which corresponds to estimated importance an annotator places on that feature at each timestamp. Our experiments on a dataset from behavioral neuroscience demonstrate that compared to baseline approaches, our method is more accurate at capturing annotator labels and learns interpretable temporal filters. We believe that our method can lead to greater reproducibility of behavior annotations used in scientific studies. We plan to release our code.}
+}
+
+@article{wang2021online,
+  title     = {Online Partial Conditional Plan Synthesis for POMDPs With Safe-Reachability Objectives: Methods and Experiments},
+  author    = {Yue Wang and Abdullah Al Redwan Newaz and Juan David Hernández and Swarat Chaudhuri and Lydia E. Kavraki},
+  year      = {2021},
+  journal   = {IEEE Transactions on Automation Science and Engineering},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/tase21-pomdp.pdf},
+  abstract  = {The framework of partially observable Markov decision processes (POMDPs) offers a standard approach to model uncertainty in many robot tasks. Traditionally, POMDPs are formulated with optimality objectives. In this article, we study a different formulation of POMDPs with Boolean objectives. For robotic domains that require a correctness guarantee of accomplishing tasks, Boolean objectives are natural formulations. We investigate the problem of POMDPs with a common Boolean objective: safe reachability, requiring that the robot eventually reaches a goal state with a probability above a threshold while keeping the probability of visiting unsafe states below a different threshold. Our approach builds upon the previous work that represents POMDPs with Boolean objectives using symbolic constraints. We employ a satisfiability modulo theories (SMTs) solver to efficiently search for solutions, i.e., policies or conditional plans that specify the action to take contingent on every possible event. A full policy or conditional plan is generally expensive to compute. To improve computational efficiency, we introduce the notion of partial conditional plans that cover sampled events to approximate a full conditional plan. Our approach constructs a partial conditional plan parameterized by a replanning probability. We prove that the failure rate of the constructed partial conditional plan is bounded by the replanning probability. Our approach allows users to specify an appropriate bound on the replanning probability to balance efficiency and correctness. Moreover, we update this bound properly to quickly detect whether the current partial conditional plan meets the bound and avoid unnecessary computation. In addition, to further improve the efficiency, we cache partial conditional plans for sampled belief states and reuse these cached plans if possible. We validate our approach in several robotic domains. The results show that our approach outperforms a previous policy synthesis approach for POMDPs with safe-reachability objectives in these domains. Note to Practitioners—This article was motivated by two observations. On the one hand, in robotics applications where uncertainty in sensing and actions is present, the solution to the classical partially observable Markov decision process (POMDP) formulation is expensive to compute in general. On the other hand, in certain practical scenarios, formulations other than the classical POMDP make a lot of sense and can provide flexibility in balancing efficiency and correctness. This article considers a modified POMDP formulation that includes a Boolean objective, namely safe reachability. This article uses the notion of a partial conditional plan. Rather than explicitly enumerating all possible observations to construct a full conditional plan, this work samples a subset of all observations to ensure bounded replanning probability. Our theoretical and empirical results show that the failure rate of the constructed partial conditional plan is bounded by the replanning probability. Moreover, these partial conditional plans can be cached to further improve the performance. Our results suggest that for domains where replanning is easy, increasing the replanning probability bound usually leads to better scalability, and for domains where replanning is difficult or impossible in some states, we can decrease the bound and allocate more computation time to achieve a higher success rate. Hence, in certain cases, the practitioner can take advantage of their knowledge of the problem domain to scale to larger problems. Preliminary physical experiments suggest that this approach is applicable to real-world robotic domains, but it requires a discrete representation of the workspace. How to deal with continuous workspace directly is an interesting future direction.}
+}
+
+@inproceedings{wei2021onevision,
+  title     = {OneVision: Centralized to Distributed Controller Synthesis with Delay Compensation},
+  author    = {Jiayi Wei and Tongrui Li and Swarat Chaudhuri and Isil Dillig and Joydeep Biswas},
+  year      = {2021},
+  booktitle = {International Conference on Intelligent Robots and Systems (IROS)},
+  arxiv     = {2104.06588},
+  pdf       = {https://arxiv.org/pdf/2104.06588},
+  abstract  = {We propose a new algorithm to simplify the controller development for distributed robotic systems subject to external observations, disturbances, and communication delays. Unlike prior approaches that propose specialized solutions to handling communication latency for specific robotic applications, our algorithm uses an arbitrary centralized controller as the specification and automatically generates distributed controllers with communication management and delay compensation. We formulate our goal as nonlinear optimal control— using a regret minimizing objective that measures how much the distributed agents behave differently from the delay-free centralized response—and solve for optimal actions w.r.t. local estimations of this objective using gradient-based optimization. We analyze our proposed algorithm’s behavior under a linear time-invariant special case and prove that the closed-loop dynamics satisfy a form of input-to-state stability w.r.t. unexpected disturbances and observations. Our experimental results on both simulated and real-world robotic tasks demonstrate the practical usefulness of our approach and show significant improvement over several baseline approaches.}
+}
+
+@inproceedings{anderson2020neurosymbolic,
+  title     = {Neurosymbolic Reinforcement Learning with Formally Verified Exploration},
+  author    = {Greg Anderson and Abhinav Verma and Isil Dillig and Swarat Chaudhuri},
+  year      = {2020},
+  booktitle = {Neural Information Processing Systems (NeurIPS)},
+  arxiv     = {2009.12612},
+  abstract  = {We present Revel, a partially neural reinforcement learning (RL) framework for provably safe exploration in continuous state and action spaces. A key challenge for provably safe deep RL is that repeatedly verifying neural networks within a learning loop is computationally infeasible. We address this challenge using two policy classes: a general, neurosymbolic class with approximate gradients and a more restricted class of symbolic policies that allows efficient verification. Our learning algorithm is a mirror descent over policies: in each iteration, it safely lifts a symbolic policy into the neurosymbolic space, performs safe gradient updates to the resulting policy, and projects the updated policy into the safe symbolic subset, all without requiring explicit verification of neural networks. Our empirical results show that Revel enforces safe exploration in many scenarios in which Constrained Policy Optimization does not, and that it can discover policies that outperform those learned through prior approaches to verified exploration.}
+}
+
+@inproceedings{mukherjee2020searching,
+  title     = {Searching a Database of Source Codes Using Contextualized Code Search},
+  author    = {Rohan Mukherjee and Chris Jermaine and Swarat Chaudhuri},
+  year      = {2020},
+  booktitle = {Proceedings of Very Large Databases (VLDB)},
+  arxiv     = {2001.03277},
+  pdf       = {http://www.vldb.org/pvldb/vol13/p1765-mukherjee.pdf},
+  abstract  = {Consider the case where a programmer has written some part of a program, but has left part of the program (such as a method or a function body) incomplete. The goal is to use the context surrounding the missing code to automatically "figure out" which of the codes in the database would be useful to the programmer in order to help complete the missing code. The search is "contextualized" in the sense that the search engine should use clues in the partially-completed code to figure out which database code is most useful. The user should not be required to formulate an explicit query. We cast contextualized code search as a learning problem, where the goal is to learn a distribution function computing the likelihood that each database code completes the program, and propose a neural model for predicting which database code is likely to be most useful. Because it will be prohibitively expensive to apply a neural model to each code in a database of millions or billions of codes at search time, one of our key technical concerns is ensuring a speedy search. We address this by learning a "reverse encoder" that can be used to reduce the problem of evaluating each database code to computing a convolution of two normal distributions.}
+}
+
+@inproceedings{shah2020learning,
+  title     = {Learning Differentiable Programs with Admissible Neural Heuristics},
+  author    = {Ameesh Shah* and Eric Zhan* and Jennifer J. Sun and Abhinav Verma and Yisong Yue and Swarat Chaudhuri},
+  year      = {2020},
+  booktitle = {Neural Information Processing Systems (NeurIPS)},
+  arxiv     = {2007.12101},
+  abstract  = {We study the problem of learning differentiable functions expressed as programs in a domain-specific language. Such programmatic models can offer benefits such as composability and interpretability; however, learning them requires optimizing over a combinatorial space of program "architectures". We frame this optimization problem as a search in a weighted graph whose paths encode top-down derivations of program syntax. Our key innovation is to view various classes of neural networks as continuous relaxations over the space of programs, which can then be used to complete any partial program. This relaxed program is differentiable and can be trained end-to-end, and the resulting training loss is an approximately admissible heuristic that can guide the combinatorial search. We instantiate our approach on top of the A-star algorithm and an iteratively deepened branch-and-bound search, and use these algorithms to learn programmatic classifiers in three sequence classification tasks. Our experiments show that the algorithms outperform state-of-the-art methods for program learning, and that they discover programmatic classifiers that yield natural interpretations and achieve competitive accuracy.}
+}
+
+@inproceedings{anderson2019optimization,
+  title     = {Optimization and Abstraction: A Synergistic Approach for Analyzing Neural Network Robustness},
+  author    = {Greg Anderson and Shankara Pailoor and Isil Dillig and Swarat Chaudhuri},
+  year      = {2019},
+  booktitle = {Symposium on Programming Language Design and Implementation (PLDI), 2019. (Distinguished Paper)},
+  arxiv     = {1904.09959},
+  abstract  = {In recent years, the notion of local robustness (or robustness for short) has emerged as a desirable property of deep neural networks. Intuitively, robustness means that small perturbations to an input do not cause the network to perform misclassifications. In this paper, we present a novel algorithm for verifying robustness properties of neural networks. Our method synergistically combines gradient-based optimization methods for counterexample search with abstraction-based proof search to obtain a sound and (δ-)complete decision procedure. Our method also employs a data-driven approach to learn a verification policy that guides abstract interpretation during proof search. We have implemented the proposed approach in a tool called Charon and experimentally evaluated it on hundreds of benchmarks. Our experiments show that the proposed approach significantly outperforms three state-of-the-art tools, namely AI^2 , Reluplex, and Reluval.}
+}
+
+@inproceedings{cheng2019control,
+  title     = {Control Regularization for Reduced Variance Reinforcement Learning},
+  author    = {Richard Cheng and Abhinav Verma and Gabor Orosz and Swarat Chaudhuri and Yisong Yue and Joel Burdick},
+  year      = {2019},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  arxiv     = {1905.05380},
+  abstract  = {Dealing with high variance is a significant challenge in model-free reinforcement learning (RL). Existing methods are unreliable, exhibiting high variance in performance from run to run using different initializations/seeds. Focusing on problems arising in continuous control, we propose a functional regularization approach to augmenting model-free RL. In particular, we regularize the behavior of the deep policy to be similar to a policy prior, i.e., we regularize in function space. We show that functional regularization yields a bias-variance trade-off, and propose an adaptive tuning strategy to optimize this trade-off. When the policy prior has control-theoretic stability guarantees, we further show that this regularization approximately preserves those stability guarantees throughout learning. We validate our approach empirically on a range of settings, and demonstrate significantly reduced variance, guaranteed dynamic stability, and more efficient learning than deep RL alone.}
+}
+
+@inproceedings{michalenko2019representing,
+  title     = {Representing Formal Languages: A Comparison between Finite Automata and Recurrent Neural Networks},
+  author    = {Josh Michalenko and Abhinav Verma and Ameesh Shah and Richard G. Baraniuk and Swarat Chaudhuri and Ankit B. Patel},
+  year      = {2019},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  arxiv     = {1902.10297},
+  abstract  = {We investigate the internal representations that a recurrent neural network (RNN) uses while learning to recognize a regular formal language. Specifically, we train a RNN on positive and negative examples from a regular language, and ask if there is a simple decoding function that maps states of this RNN to states of the minimal deterministic finite automaton (MDFA) for the language. Our experiments show that such a decoding function indeed exists, and that it maps states of the RNN not to MDFA states, but to states of an (\em abstraction) obtained by clustering small sets of MDFA states into "superstates". A qualitative analysis reveals that the abstraction often has a simple interpretation. Overall, the results suggest a strong structural relationship between internal representations used by RNNs and finite automata, and explain the well-known ability of RNNs to recognize formal grammatical structure.}
+}
+
+@inproceedings{verma2019imitation,
+  title     = {Imitation-Projected Programmatic Reinforcement Learning},
+  author    = {Abhinav Verma* and Hoang M. Le* and Yisong Yue and Swarat Chaudhuri},
+  year      = {2019},
+  booktitle = {Neural Information Processing Systems (NeurIPS)},
+  arxiv     = {1907.05431},
+  abstract  = {We study the problem of programmatic reinforcement learning, in which policies are represented as short programs in a symbolic language. Programmatic policies can be more interpretable, generalizable, and amenable to formal verification than neural policies; however, designing rigorous learning approaches for such policies remains a challenge. Our approach to this challenge -- a meta-algorithm called PROPEL -- is based on three insights. First, we view our learning task as optimization in policy space, modulo the constraint that the desired policy has a programmatic representation, and solve this optimization problem using a form of mirror descent that takes a gradient step into the unconstrained policy space and then projects back onto the constrained space. Second, we view the unconstrained policy space as mixing neural and programmatic representations, which enables employing state-of-the-art deep policy gradient approaches. Third, we cast the projection step as program synthesis via imitation learning, and exploit contemporary combinatorial methods for this task. We present theoretical convergence results for PROPEL and empirically evaluate the approach in three continuous control domains. The experiments show that PROPEL can significantly outperform state-of-the-art approaches for learning programmatic policies.},
+  selected  = {true}
+}
+
+@article{wang2019point,
+  title     = {Point-Based Policy Synthesis for POMDPs with Boolean and Quantitative Objectives},
+  author    = {Yue Wang and Swarat Chaudhuri and Lydia Kavraki},
+  year      = {2019},
+  journal   = {IEEE Robotics and Automation Letters (RAL)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/wang-ral19.pdf},
+  abstract  = {Effectively planning robust executions under uncertainty is critical for building autonomous robots. Partially observable Markov decision processes (POMDPs) provide a standard framework for modeling many robot applications under uncertainty. We study POMDPs with two kinds of objectives: (1) Boolean objectives for a correctness guarantee of accomplishing tasks and (2) quantitative objectives for optimal behaviors. For robotic domains that require both correctness and optimality, POMDPs with Boolean and quantitative objectives are natural formulations. We present a practical policy synthesis approach for POMDPs with Boolean and quantitative objectives by combining policy iteration and policy synthesis for POMDPs with only Boolean objectives. To improve efficiency, our approach produces approximate policies by performing the point-based backup on a small set of representative beliefs. Despite being approximate, our approach maintains validity (satisfying Boolean objectives) and guarantees improved policies at each iteration before termination. Moreover, the error due to approximation is bounded. We evaluate our approach in several robotic domains. The results show that our approach produces good approximate policies that guarantee task completion.}
+}
+
+@inproceedings{bansal2018automata,
+  title     = {Automata vs Linear-Programming Discounted-Sum Inclusion},
+  author    = {Suguman Bansal and Swarat Chaudhuri and Moshe Y. Vardi},
+  year      = {2018},
+  booktitle = {International Conference on Computer-Aided Verification (CAV)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/cav18.pdf},
+  abstract  = {The problem of quantitative inclusion formalizes the goal of comparing quantitative dimensions between systems such as worst-case execution time, resource consumption, and the like. Such systems are typically represented by formalisms such as weighted logics or weighted automata. Despite its significance in analyzing the quality of computing systems, the study of quantitative inclusion has mostly been conducted from a theoretical standpoint. In this work, we conduct the first empirical study of quantitative inclusion for discounted-sum weighted automata (DS-inclusion, in short).}
+}
+
+@inproceedings{bansal2018comparator,
+  title     = {Comparator Automata in Quantitative Verification},
+  author    = {Suguman Bansal and Swarat Chaudhuri and Moshe Y. Vardi},
+  year      = {2018},
+  booktitle = {International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)},
+  arxiv     = {1812.06569},
+  abstract  = {The notion of comparison between system runs is fundamental in formal verification. This concept is implicitly present in the verification of qualitative systems, and is more pronounced in the verification of quantitative systems. In this work, we identify a novel mode of comparison in quantitative systems: the online comparison of the aggregate values of two sequences of quantitative weights. This notion is embodied by comparator automata (comparators, in short), a new class of automata that read two infinite sequences of weights synchronously and relate their aggregate values. We show that aggregate functions that can be represented with Büchi automaton result in comparators that are finite-state and accept by the Büchi condition as well. Such $ω$-regular comparators further lead to generic algorithms for a number of well-studied problems, including the quantitative inclusion and winning strategies in quantitative graph games with incomplete information, as well as related non-decision problems, such as obtaining a finite representation of all counterexamples in the quantitative inclusion problem. We study comparators for two aggregate functions: discounted-sum and limit-average. We prove that the discounted-sum comparator is $ω$-regular iff the discount-factor is an integer. Not every aggregate function, however, has an $ω$-regular comparator. Specifically, we show that the language of sequence-pairs for which limit-average aggregates exist is neither $ω$-regular nor $ω$-context-free. Given this result, we introduce the notion of prefix-average as a relaxation of limit-average aggregation, and show that it admits $ω$-context-free comparators i.e. comparator automata expressed by Büchi pushdown automata.}
+}
+
+@article{dantam2018incremental,
+  title     = {An Incremental Constraint-Based Framework for Task and Motion Planning},
+  author    = {Neil Dantam and Swarat Chaudhuri and Lydia Kavraki},
+  year      = {2018},
+  journal   = {International Journal of Robotics Research},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/ijrr18-tmp}
+}
+
+@article{dantam2018task,
+  title     = {The Task-Motion Kit: An Open Source, General-Purpose Task and Motion-Planning Framework},
+  author    = {Neil Dantam and Swarat Chaudhuri and Lydia Kavraki},
+  year      = {2018},
+  journal   = {IEEE Robotics & Automation Magazine},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/dantam2018-tmkit.pdf},
+  abstract  = {Robots require novel reasoning systems to achieve complex objectives in new environments. Daily activities in the physical world combine two types of reasoning: discrete and continuous. For example, to set the table in Figure 1, the robot must make discrete decisions about which and in what order to pick objects, and it must execute these decisions by computing continuous motions to reach objects or desired locations. Robotics has traditionally treated these issues in isolation. Reasoning about discrete events is referred to as task planning, while reasoning about and computing continuous motions is in the realm of motion planning.}
+}
+
+@inproceedings{gehr2018ai,
+  title     = {AI 2 : Safety and Robustness Certification of Neural Networks with Abstract Interpretation},
+  author    = {Timon Gehr and Matthew Mirman and Dana Drachsler Cohen and Petar Tsankov and Swarat Chaudhuri and Martin Vechev},
+  year      = {2018},
+  booktitle = {IEEE Symposium on Security and Privacy (S&P)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/sp2018-ai2.pdf},
+  abstract  = {We present AI2, the first sound and scalable analyzer for deep neural networks. Based on overapproximation, AI2 can automatically prove safety properties (e.g., robustness) of realistic neural networks (e.g., convolutional neural networks). The key insight behind AI2 is to phrase reasoning about safety and robustness of neural networks in terms of classic abstract interpretation, enabling us to leverage decades of advances in that area. Concretely, we introduce abstract transformers that capture the behavior of fully connected and convolutional neural network layers with rectified linear unit activations (ReLU), as well as max pooling layers. This allows us to handle real-world neural networks, which are often built out of those types of layers. We present a complete implementation of AI2 together with an extensive evaluation on 20 neural networks. Our results demonstrate that: (i) AI2 is precise enough to prove useful specifications (e.g., robustness), (ii) AI2 can be used to certify the effectiveness of state-of-the-art defenses for neural networks, (iii) AI2 is significantly faster than existing analyzers based on symbolic analysis, which often take hours to verify simple fully connected networks, and (iv) AI2 can handle deep convolutional networks, which are beyond the reach of existing methods.},
+  selected  = {true}
+}
+
+@inproceedings{lu2018program,
+  title     = {Program Splicing},
+  author    = {Yanxin Lu and Swarat Chaudhuri and David G. Melski and Chris Jermaine},
+  year      = {2018},
+  booktitle = {International Conference on Software Engineering (ICSE)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/icse18-splicing.pdf}
+}
+
+@inproceedings{murali2018neural,
+  title     = {Neural Sketch Learning for Conditional Program Generation},
+  author    = {Vijayaraghavan Murali and Letao Qi and Swarat Chaudhuri and Chris Jermaine},
+  year      = {2018},
+  booktitle = {International Conference for Learning Representations (ICLR), 2018.  (Oral presentation)},
+  arxiv     = {1703.05698},
+  abstract  = {We study the problem of generating source code in a strongly typed, Java-like programming language, given a label (for example a set of API calls or types) carrying a small amount of information about the code that is desired. The generated programs are expected to respect a "realistic" relationship between programs and labels, as exemplified by a corpus of labeled programs available during training. Two challenges in such conditional program generation are that the generated programs must satisfy a rich set of syntactic and semantic constraints, and that source code contains many low-level features that impede learning. We address these problems by training a neural generator not on code but on program sketches, or models of program syntax that abstract out names and operations that do not generalize across programs. During generation, we infer a posterior distribution over sketches, then concretize samples from this distribution into type-safe programs using combinatorial techniques. We implement our ideas in a system for generating API-heavy Java code, and show that it can often predict the entire body of a method given just a few API calls or data types that appear in the method.}
+}
+
+@inproceedings{valkov2018houdini,
+  title     = {Houdini: Lifelong Learning as Program Synthesis},
+  author    = {Lazar Valkov and Dipak Chaudhari and Akash Srivastava and Charles A. Sutton and Swarat Chaudhuri},
+  year      = {2018},
+  booktitle = {Neural Information Processing Systems (NeurIPS)},
+  arxiv     = {1804.00218},
+  abstract  = {We present a neurosymbolic framework for the lifelong learning of algorithmic tasks that mix perception and procedural reasoning. Reusing high-level concepts across domains and learning complex procedures are key challenges in lifelong learning. We show that a program synthesis approach that combines gradient descent with combinatorial search over programs can be a more effective response to these challenges than purely neural methods. Our framework, called HOUDINI, represents neural networks as strongly typed, differentiable functional programs that use symbolic higher-order combinators to compose a library of neural functions. Our learning algorithm consists of: (1) a symbolic program synthesizer that performs a type-directed search over parameterized programs, and decides on the library functions to reuse, and the architectures to combine them, while learning a sequence of tasks; and (2) a neural module that trains these programs using stochastic gradient descent. We evaluate HOUDINI on three benchmarks that combine perception with the algorithmic tasks of counting, summing, and shortest-path computation. Our experiments show that HOUDINI transfers high-level concepts more effectively than traditional transfer learning and progressive neural networks, and that the typed representation of networks significantly accelerates the search.},
+  selected  = {true}
+}
+
+@inproceedings{verma2018programmatically,
+  title     = {Programmatically Interpretable Reinforcement Learning},
+  author    = {Abhinav Verma and Vijayaraghavan Murali and Rishabh Singh and Pushmeet Kohli and Swarat Chaudhuri},
+  year      = {2018},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  arxiv     = {1804.02477},
+  abstract  = {We present a reinforcement learning framework, called Programmatically Interpretable Reinforcement Learning (PIRL), that is designed to generate interpretable and verifiable agent policies. Unlike the popular Deep Reinforcement Learning (DRL) paradigm, which represents policies by neural networks, PIRL represents policies using a high-level, domain-specific programming language. Such programmatic policies have the benefits of being more easily interpreted than neural networks, and being amenable to verification by symbolic methods. We propose a new method, called Neurally Directed Program Search (NDPS), for solving the challenging nonsmooth optimization problem of finding a programmatic policy with maximal reward. NDPS works by first learning a neural policy network using DRL, and then performing a local search over programmatic policies that seeks to minimize a distance from this neural "oracle". We evaluate NDPS on the task of learning to drive a simulated car in the TORCS car-racing environment. We demonstrate that NDPS is able to discover human-readable policies that pass some significant performance bars. We also show that PIRL policies can have smoother trajectories, and can be more easily transferred to environments not encountered during training, than corresponding policies discovered by DRL.},
+  selected  = {true}
+}
+
+@inproceedings{wang2018bounded,
+  title     = {Bounded Policy Synthesis for POMDPs with Safe-Reachability Objectives},
+  author    = {Yue Wang and Swarat Chaudhuri and Lydia Kavraki},
+  year      = {2018},
+  booktitle = {International Conference on Autonomous Agents and Multiagent Systems (AAMAS)},
+  arxiv     = {1801.09780},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/wang2018bounded-policy-synthesis.pdf},
+  abstract  = {Planning robust executions under uncertainty is a fundamental challenge for building autonomous robots. Partially Observable Markov Decision Processes (POMDPs) provide a standard framework for modeling uncertainty in many applications. In this work, we study POMDPs with safe-reachability objectives, which require that with a probability above some threshold, a goal state is eventually reached while keeping the probability of visiting unsafe states below some threshold. This POMDP formulation is different from the traditional POMDP models with optimality objectives and we show that in some cases, POMDPs with safe-reachability objectives can provide a better guarantee of both safety and reachability than the existing POMDP models through an example. A key algorithmic problem for POMDPs is policy synthesis , which requires reasoning over a vast space of beliefs (probability distributions). To address this challenge, we introduce the notion of a goal-constrained belief space , which only contains beliefs reachable from the initial belief under desired executions that can achieve the given safe-reachability objective. Our method compactly represents this space over a bounded horizon using symbolic constraints, and employs an incremental Satisfiability Modulo Theories (SMT) solver to efficiently search for a valid policy over it. We evaluate our method using a case study involving a partially observable robotic domain with uncertain obstacles. The results show that our method can synthesize policies over large belief spaces with a small number of SMT solver calls by focusing on the goal-constrained belief space.}
+}
+
+@inproceedings{wang2018online,
+  title     = {Online Partial Conditional Plan Synthesis for POMDPs with Safe-Reachability Objectives},
+  author    = {Yue Wang and Swarat Chaudhuri and Lydia Kavraki},
+  year      = {2018},
+  booktitle = {Workshop on Algorithmic Foundations of Robotics (WAFR)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/wang2018partial.pdf}
+}
+
+@inproceedings{feng2017component,
+  title     = {Component-Based Synthesis of Table Consolidation and Transformation Tasks from Examples},
+  author    = {Yu Feng and Ruben Martins and Jacon Van Geffen and Isil Dillig and Swarat Chaudhuri},
+  year      = {2017},
+  booktitle = {ACM Conference on Programming Language Design and Implementation (PLDI)},
+  arxiv     = {1611.07502},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/pldi17-morpheus.pdf},
+  abstract  = {This paper presents a novel component-based synthesis algorithm that marries the power of type-directed search with lightweight SMT-based deduction and partial evaluation. Given a set of components together with their over-approximate first-order specifications, our method first generates a program sketch over a subset of the components and checks its feasibility using an SMT solver. Since a program sketch typically represents many concrete programs, the use of SMT-based deduction greatly increases the scalability of the algorithm. Once a feasible program sketch is found, our algorithm completes the sketch in a bottom-up fashion, using partial evaluation to further increase the power of deduction for rejecting partially-filled program sketches. We apply the proposed synthesis methodology for automating a large class of data preparation tasks that commonly arise in data science. We have evaluated our synthesis algorithm on dozens of data wrangling and consolidation tasks obtained from on-line forums, and we show that our approach can automatically solve a large class of problems encountered by R users.}
+}
+
+@inproceedings{murali2017bayesian,
+  title     = {Bayesian Specification Learning for Finding API Usage Errors},
+  author    = {Vijayaraghavan Murali and Swarat Chaudhuri and Chris Jermaine},
+  year      = {2017},
+  booktitle = {European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/murali-fse17.pdf}
+}
+
+@inproceedings{dantam2016incremental,
+  title     = {Incremental Task and Motion Planning: A Constraint-Based Approach},
+  author    = {Neil Dantam and Zachary Kingston and Swarat Chaudhuri and Lydia Kavraki},
+  year      = {2016},
+  booktitle = {Robotics: Science and Systems (RSS)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/dantam2016tmp.pdf},
+  abstract  = {—We present a new algorithm for task and motion planning (TMP) and discuss the requirements and abstractions necessary to obtain robust solutions for TMP in general. Our Iteratively Deepened Task and Motion Planning (IDTMP) method is probabilistically-complete and offers improved per- formance and generality compared to a similar, state-of-the-art, probabilistically-complete planner. The key idea of IDTMP is to leverage incremental constraint solving to efﬁciently add and remove constraints on motion feasibility at the task level. We validate IDTMP on a physical manipulator and evaluate scalability on scenarios with many objects and long plans, showing order-of-magnitude gains compared to the benchmark planner and a four-times self-comparison speedup from our extensions. Finally, in addition to describing a new method for TMP and its implementation on a physical robot, we also put forward requirements and abstractions for the development of similar planners in the future.}
+}
+
+@inproceedings{kido2016abstract,
+  title     = {Abstract interpretation with infinitesimals — towards scalability in nonstandard static analysis},
+  author    = {Kengo Kido and Swarat Chaudhuri and Ichiro Hasuo},
+  year      = {2016},
+  booktitle = {International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI)},
+  arxiv     = {1511.00825},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/abstract_interpretation_dt.pdf},
+  abstract  = {We extend abstract interpretation for the purpose of verifying hybrid systems. Abstraction has been playing an important role in many verification methodologies for hybrid systems, but some special care is needed for abstraction of continuous dynamics defined by ODEs. We apply Cousot and Cousot's framework of abstract interpretation to hybrid systems, almost as it is, by regarding continuous dynamics as an infinite iteration of infinitesimal discrete jumps. This extension follows the recent line of work by Suenaga, Hasuo and Sekine, where deductive verification is extended for hybrid systems by 1 introducing a constant $$\mathtt (dt)$$ for an infinitesimal value; and 2 employing Robinson's nonstandard analysis NSA to define mathematically rigorous semantics. Our theoretical results include soundness and termination via uniform widening operators; and our prototype implementation successfully verifies some benchmark examples.}
+}
+
+@inproceedings{wang2016task,
+  title     = {Task and Motion Policy Synthesis as Liveness Games},
+  author    = {Yue Wang and Neil Dantam and Swarat Chaudhuri and Lydia Kavraki},
+  year      = {2016},
+  booktitle = {International Conference on Automated Planning and Scheduling (ICAPS)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/wang2016task.pdf},
+  abstract  = {We present a novel and scalable policy synthesis approach for robots. Rather than producing single-path plans for a static environment, we consider changing environments with uncontrollable agents, where the robot needs a policy to respond correctly over the infinite-horizon interaction with the environment. Our approach operates on task and motion domains, and combines actions over discrete states with continuous, collision-free paths. We synthesize a task and motion policy by iteratively generating a candidate policy and verifying its correctness. For efficient policy generation, we use grammars for potential policies to limit the search space and apply domain-specific heuristics to generalize verification failures, providing stricter constraints on policy candidates. For efficient policy verification, we construct compact, symbolic constraints for valid policies and employ a Satisfiability Modulo Theories (SMT) solver to check the validity of these constraints. Furthermore, the SMT solver enables quantitative specifications such as energy limits. The results show that our approach offers better scalability compared to a state-of-the-art policy synthesis tool in the tested benchmarks and demonstrate an order-of-magnitude speedup from our heuristics for the tested mobile manipulation domain.}
+}
+
+@inproceedings{yaghmazadeh2016synthesizing,
+  title     = {Synthesizing transformations on hierarchically structured data},
+  author    = {Navid Yaghmazadeh and Christian Klinger and Isil Dillig and Swarat Chaudhuri},
+  year      = {2016},
+  booktitle = {ACM Conference on Programming Language Design and Implementation (PLDI)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/pldi16-hades.pdf}
+}
+
+@inproceedings{beyene2015recursive,
+  title     = {Recursive Games for Compositional Program Synthesis},
+  author    = {Tewodros A. Beyene and Swarat Chaudhuri and Corneliu Popeea and Andrey Rybalchenko},
+  year      = {2015},
+  booktitle = {Verified Software: Theories, Tools, and Experiments (VSTTE)}
+}
+
+@inproceedings{feser2015synthesizing,
+  title     = {Synthesizing data structure transformations from input-output examples},
+  author    = {John Feser and Swarat Chaudhuri and Isil Dillig},
+  year      = {2015},
+  booktitle = {ACM Conference on Programming Language Design and Implementation (PLDI)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/pldi15.pdf}
+}
+
+@inproceedings{huang2015controller,
+  title     = {Controller synthesis with inductive proofs for piecewise linear systems: an SMT-based algorithm},
+  author    = {Zhenqi Huang and Yu Wang and Sayan Mitra and Geir Dullerud and Swarat Chaudhuri},
+  year      = {2015},
+  booktitle = {54th IEEE Conference on Decision and Control (CDC)},
+  arxiv     = {1509.04623},
+  pdf       = {https://arxiv.org/pdf/1509.04623},
+  abstract  = {We present a controller synthesis algorithm for reach-avoid problems for piecewise linear discrete-time systems. Our algorithm relies on SMT solvers and in this paper we focus on piecewise constant control strategies. Our algorithm generates feedback control laws together with inductive proofs of unbounded time safety and progress properties with respect to the reach-avoid sets. Under a reasonable robustness assumption, the algorithm is shown to be complete. That is, it either generates a controller of the above type along with a proof of correctness, or it establishes the impossibility of the existence of such controllers. To achieve this, the algorithm iteratively attempts to solve a weakened and strengthened versions of the SMT encoding of the reach-avoid problem. We present preliminary experimental results on applying this algorithm based on a prototype implementation.}
+}
+
+@inproceedings{lu2015grading,
+  title     = {Grading the Graders: Motivating Peer Graders in a MOOC},
+  author    = {Yanxin Lu and Joe Warren and Christopher Jermaine and Swarat Chaudhuri and Scott Rixner},
+  year      = {2015},
+  booktitle = {24th International World Wide Web Conference (WWW)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/www15.pdf}
+}
+
+@inproceedings{beyene2014constraint,
+  title     = {A constraint-based approach to solving games on infinite graphs},
+  author    = {Tewodros Beyene and Swarat Chaudhuri and Corneliu Popeea and Andrey Rybalchenko},
+  year      = {2014},
+  booktitle = {41st Annual Symposium on Principles of Programming Languages (POPL)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/popl14-games.pdf}
+}
+
+@inproceedings{chaudhuri2014bridging,
+  title     = {Bridging Boolean and quantitative synthesis using smoothed proof search},
+  author    = {Swarat Chaudhuri and Martin Clochard and Armando Solar-Lezama},
+  year      = {2014},
+  booktitle = {41st Annual Symposium on Principles of Programming Languages (POPL)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/popl14-smooth.pdf}
+}
+
+@inproceedings{chaudhuri2014consistency,
+  title     = {Consistency analysis of decision-making programs},
+  author    = {Swarat Chaudhuri and Azadeh Farzan and Zachary Kincaid},
+  year      = {2014},
+  booktitle = {41st Annual Symposium on Principles of Programming Languages (POPL)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/popl14-geometry.pdf}
+}
+
+@inproceedings{dillig2014optimal,
+  title     = {Optimal Guard Synthesis for Memory Safety},
+  author    = {Thomas Dillig and Isil Dillig and Swarat Chaudhuri},
+  year      = {2014},
+  booktitle = {26th International Conference on Computer Aided Verification (CAV)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/CAV14-extended.pdf}
+}
+
+@inproceedings{drummond2014learning,
+  title     = {Learning to Grade Student Programs in a Massive Open Online Course},
+  author    = {Anna Drummond and Yanxin Lu and Swarat Chaudhuri and Christopher Jermaine and Scott Rixner and Joe Warren},
+  year      = {2014},
+  booktitle = {IEEE International Conference on Data Mining (ICDM)}
+}
+
+@inproceedings{nedunuri2014smt,
+  title     = {SMT-Based Synthesis of Integrated Task and Motion Plans from Plan Outlines},
+  author    = {Srinivas Nedunuri and Sailesh Prabhu and Mark Moll and Swarat Chaudhuri and Lydia Kavraki},
+  year      = {2014},
+  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/icra14.pdf}
+}
+
+@inproceedings{surendran2014test,
+  title     = {Test-Driven Repair of Data Races in Structured Parallel Programs},
+  author    = {Rishi Surendran and Raghavan Raman and Swarat Chaudhuri and John Mellor-Crummey and Vivek Sarkar},
+  year      = {2014},
+  booktitle = {ACM Conference on Programming Language Design and Implementation (PLDI)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/pldi14.pdf}
+}
+
+@inproceedings{chaudhuri2013regular,
+  title     = {Regular real analysis},
+  author    = {Swarat Chaudhuri and Sriram Sankaranarayanan and Moshe Y. Vardi},
+  year      = {2013},
+  booktitle = {28th Symposium on Logic in Computer Science (LICS)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/lics13.pdf}
+}
+
+@inproceedings{palahan2013extraction,
+  title     = {Extraction of statistically significant malware behaviors},
+  author    = {Sirinda Palahan and Domagoj Babic and Swarat Chaudhuri and Daniel Kifer},
+  year      = {2013},
+  booktitle = {Annual Computer Security Applications Conference (ACSAC)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/acsac13.pdf}
+}
+
+@inproceedings{samanta2013robustness,
+  title     = {Robustness analysis of string transducers},
+  author    = {Roopsha Samanta and Jyotirmoy Deshmukh and Swarat Chaudhuri},
+  year      = {2013},
+  booktitle = {Automated Technology for Verification and Analysis (ATVA)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/atva13.pdf}
+}
+
+@inproceedings{samanta2013robustness2,
+  title     = {Robustness analysis of networked systems},
+  author    = {Roopsha Samanta and Jyotirmoy Deshmukh and Swarat Chaudhuri},
+  year      = {2013},
+  booktitle = {Verification, Model Checking, and Abstract Interpretation (VMCAI)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/vmcai13.pdf}
+}
+
+@inproceedings{zhao2013isolation,
+  title     = {Isolation for nested task-parallelism},
+  author    = {Jisheng Zhao and Roberto Lublinerman and Zoran Budimlic and Swarat Chaudhuri and Vivek Sarkar},
+  year      = {2013},
+  booktitle = {International Conference on Object Oriented Programming, Systems, Languages and Applications (OOPSLA)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/oopsla13.pdf}
+}
+
+@article{chaudhuri2012continuity,
+  title     = {Continuity and robustness of programs},
+  author    = {Swarat Chaudhuri and Sumit Gulwani and Roberto Lublinerman},
+  year      = {2012},
+  journal   = {Communications of the ACM (CACM) Research Highlight, August},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/p107-chaudhuri.pdf}
+}
+
+@inproceedings{chaudhuri2012euler,
+  title     = {Euler: A System for Numerical Optimization of Programs},
+  author    = {[Technical perspective by Andreas Zeller] Swarat Chaudhuri and Armando Solar-Lezama},
+  year      = {2012},
+  booktitle = {24th International Conference on Computer-Aided Verification (CAV)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/cav12-tool.pdf}
+}
+
+@article{alur2011software,
+  title     = {Software model checking with languages of nested trees},
+  author    = {Rajeev Alur and Swarat Chaudhuri and P. Madhusudan},
+  year      = {2011},
+  journal   = {ACM Transactions on Programming Languages and Systems (TOPLAS). Volume 33 Issue 5, November},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/toplas11.pdf}
+}
+
+@inproceedings{chaudhuri2011proving,
+  title     = {Proving programs robust},
+  author    = {Swarat Chaudhuri and Sumit Gulwani and Roberto Lublinerman and Sara Navidpour},
+  year      = {2011},
+  booktitle = {Joint European Software Engineering Conference and ACM Symposium on the Foundations of Software Engineering (ESEC/FSE)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/fse11.pdf}
+}
+
+@inproceedings{chaudhuri2011smoothing,
+  title     = {Smoothing a program soundly and robustly},
+  author    = {(Distinguished Paper; CACM Research Highlight) Swarat Chaudhuri and Armando Solar-Lezama},
+  year      = {2011},
+  booktitle = {23rd International Conference on Computer-Aided Verification (CAV)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/cav11.pdf}
+}
+
+@inproceedings{enck2011study,
+  title     = {A study of Android application security},
+  author    = {William Enck and Damien Octeau and Patrick McDaniel and Swarat Chaudhuri},
+  year      = {2011},
+  booktitle = {The 20th USENIX Security Symposium},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/enck-sec11.pdf}
+}
+
+@inproceedings{lublinerman2011delegated,
+  title     = {Delegated isolation},
+  author    = {Roberto Lublinerman and Jisheng Zhao and Zoran Budimlic and Swarat Chaudhuri and Vivek Sarkar},
+  year      = {2011},
+  booktitle = {International Conference on Object Oriented Programming, Systems, Languages and Applications (OOPSLA)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/oopsla11.pdf}
+}
+
+@inproceedings{srivastava2011path,
+  title     = {Path-based inductive synthesis for program inversion},
+  author    = {Saurabh Srivastava and Sumit Gulwani and Swarat Chaudhuri and Jeff Foster},
+  year      = {2011},
+  booktitle = {ACM Conference on Programming Language Design and Implementation (PLDI)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/pins-synthesis.pdf}
+}
+
+@inproceedings{alur2010temporal,
+  title     = {Temporal reasoning for procedural programs},
+  author    = {Rajeev Alur and Swarat Chaudhuri},
+  year      = {2010},
+  booktitle = {The 11th International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/tempres.pdf}
+}
+
+@inproceedings{cerny2010model,
+  title     = {Model Checking of Linearizability of Concurrent List Implementations},
+  author    = {Pavol Cerny and Arjun Radhakrishna and Damien Zufferey and Swarat Chaudhuri and Rajeev Alur},
+  year      = {2010},
+  booktitle = {22nd International Conference on Computer-Aided Verification (CAV)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/cav10.pdf}
+}
+
+@inproceedings{chaudhuri2010continuity,
+  title     = {Continuity analysis of programs},
+  author    = {Swarat Chaudhuri and Sumit Gulwani and Roberto Lublinerman},
+  year      = {2010},
+  booktitle = {37th Annual Symposium on Principles of Programming Languages (POPL)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/continuity.pdf}
+}
+
+@inproceedings{chaudhuri2010smooth,
+  title     = {Smooth interpretation},
+  author    = {Swarat Chaudhuri and Armando Solar-Lezama},
+  year      = {2010},
+  booktitle = {ACM Conference on Programming Language Design and Implementation (PLDI)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/pldi10.pdf},
+  abstract  = {We present smooth interpretation, a method to systematically approximate numerical imperative programs by smooth mathematical functions. This approximation facilitates the use of numerical search techniques like gradient descent for program analysis and synthesis. The method extends to programs the notion of Gaussian smoothing, a popular signal-processing technique that filters out noise and discontinuities from a signal by taking its convolution with a Gaussian function. In our setting, Gaussian smoothing executes a program according to a probabilistic semantics; the execution of program P on an input x after Gaussian smoothing can be summarized as follows: (1) Apply a Gaussian perturbation to x -- the perturbed input is a random variable following a normal distribution with mean x. (2) Compute and return the expected output of P on this perturbed input. Computing the expectation explicitly would require the execution of P on all possible inputs, but smooth interpretation bypasses this requirement by using a form of symbolic execution to approximate the effect of Gaussian smoothing on P. The result is an efficient but approximate implementation of Gaussian smoothing of programs. Smooth interpretation has the effect of attenuating features of a program that impede numerical searches of its input space -- for example, discontinuities resulting from conditional branches are replaced by continuous transitions. We apply smooth interpretation to the problem of synthesizing values of numerical control parameters in embedded control applications. This problem is naturally formulated as one of numerical optimization: the goal is to find parameter values that minimize the error between the resulting program and a programmer-provided behavioral specification. Solving this problem by directly applying numerical optimization techniques is often impractical due to the discontinuities in the error function. By eliminating these discontinuities, smooth interpretation makes it possible to search the parameter space efficiently by means of simple gradient descent. Our experiments demonstrate the value of this strategy in synthesizing parameters for several challenging programs, including models of an automated gear shift and a PID controller.}
+}
+
+@inproceedings{lublinerman2009parallel,
+  title     = {Parallel programming with object assemblies},
+  author    = {Roberto Lublinerman and Swarat Chaudhuri and Pavol Cerny},
+  year      = {2009},
+  booktitle = {International Conference on Object Oriented Programming, Systems, Languages and Applications (OOPSLA)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/oopsla09.pdf},
+  slides    = {http://www.cse.psu.edu/~swarat/pubs/Chorus-OOPSLA.pptx}
+}
+
+@inproceedings{wang2009symbolic,
+  title     = {Symbolic Pruning of Concurrent Program Executions},
+  author    = {Chao Wang and Swarat Chaudhuri and Aarti Gupta and Yu Yang},
+  year      = {2009},
+  booktitle = {Joint European Software Engineering Conference and ACM Symposium on the Foundations of Software Engineering (ESEC/FSE)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/fse09.pdf}
+}
+
+@inproceedings{chaudhuri2008subcubic,
+  title     = {Subcubic algorithms for recursive state machines},
+  author    = {Swarat Chaudhuri},
+  year      = {2008},
+  booktitle = {35th Annual Symposium on Principles of Programming Languages (POPL)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/popl08.pdf}
+}
+
+@inproceedings{sankaranarayanan2008dynamic,
+  title     = {Dynamic inference of likely data preconditions over predicates by tree learning},
+  author    = {Sriram Sankaranarayanan and Swarat Chaudhuri and Franjo Ivancic and Aarti Gupta},
+  year      = {2008},
+  booktitle = {International Symposium on Software Testing and Analysis (ISSTA)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/issta08.pdf}
+}
+
+@inproceedings{chaudhuri2007instrumenting,
+  title     = {Instrumenting C programs with nested word monitors},
+  author    = {Swarat Chaudhuri and Rajeev Alur},
+  year      = {2007},
+  booktitle = {14th Workshop on Model Checking Software (SPIN)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/spin07.pdf}
+}
+
+@phdthesis{chaudhuri2007logics,
+  title     = {Logics and algorithms for software model checking},
+  author    = {Swarat Chaudhuri},
+  year      = {2007},
+  school    = {Doctoral dissertation, University of Pennsylvania},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/thesis.pdf}
+}
+
+@inproceedings{maurice2007model,
+  title     = {Model checking on trees with path equivalences},
+  author    = {(ACM SIGPLAN Doctoral Dissertation Award; Maurice and Dorothy Rubinoff Award) Rajeev Alur and Pavol Cerny and Swarat Chaudhuri},
+  year      = {2007},
+  booktitle = {13th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/tacas07.pdf}
+}
+
+@inproceedings{alur2006branching,
+  title     = {Branching pushdown tree automata},
+  author    = {Rajeev Alur and Swarat Chaudhuri},
+  year      = {2006},
+  booktitle = {26th Conference on Foundations of Software Technology and Theoretical Computer Science (FSTTCS)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/fsttcs06.pdf}
+}
+
+@inproceedings{alur2006fixpoint,
+  title     = {A fixpoint calculus for local and global program flows},
+  author    = {Rajeev Alur and Swarat Chaudhuri and P. Madhusudan},
+  year      = {2006},
+  booktitle = {33rd Annual Symposium on Principles of Programming Languages (POPL)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/popl06.pdf}
+}
+
+@inproceedings{alur2006languages,
+  title     = {Languages of nested trees},
+  author    = {Rajeev Alur and Swarat Chaudhuri and P. Madhusudan},
+  year      = {2006},
+  booktitle = {18th International Conference on Computer-Aided Verification (CAV)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/cav06.pdf},
+  slides    = {https://www.cs.utexas.edu/~swarat/pubs/CAV06.ppt}
+}
+
+@inproceedings{alur2006logics,
+  title     = {Logics and automata for software model-checking},
+  author    = {Rajeev Alur and Swarat Chaudhuri},
+  year      = {2006},
+  booktitle = {Lecture notes, Marktoberdorf Summer School},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/nested.pdf}
+}
+
+@inproceedings{alur2005fly,
+  title     = {On-the-fly reachability and cycle detection for recursive state machines},
+  author    = {Rajeev Alur and Swarat Chaudhuri and Kousha Etessami and P. Madhusudan},
+  year      = {2005},
+  booktitle = {11th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/Tacas05.pdf}
+}
+
+@inproceedings{alur2003compression,
+  title     = {Compression of partially ordered strings},
+  author    = {Rajeev Alur and Swarat Chaudhuri and Kousha Etessami and Sudipto Guha and Mihalis Yannakakis},
+  year      = {2003},
+  booktitle = {14th International Conference on Concurrency Theory (CONCUR)},
+  pdf       = {https://www.cs.utexas.edu/~swarat/pubs/Concur03.pdf}
+}
