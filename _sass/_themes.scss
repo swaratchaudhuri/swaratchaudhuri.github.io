@@ -16,7 +16,7 @@
   --global-code-bg-color: #{v.$code-bg-color-light};
   --global-text-color: #{v.$mondrian-ink};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$mondrian-navy};
+  --global-theme-color: #{v.$mondrian-blue-text};
   --global-hover-color: #{v.$mondrian-rust};
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$mondrian-navy};
@@ -212,4 +212,32 @@ html[data-theme-setting="light"] {
 
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
+}
+
+// -----------------------------------------------------------------------------
+// Mondrian block accent (new — not part of the gem default)
+//
+// A literal nod to the navy/yellow/rust block composition from
+// cs.utexas.edu/~swarat, since recoloring text/links alone (above) is too
+// subtle to read as "the Mondrian palette" at a glance.
+// -----------------------------------------------------------------------------
+
+header #navbar {
+  border-top: 5px solid transparent;
+  border-image: linear-gradient(
+      to right,
+      #{v.$mondrian-navy} 0%,
+      #{v.$mondrian-navy} 33.33%,
+      #{v.$mondrian-yellow} 33.33%,
+      #{v.$mondrian-yellow} 66.66%,
+      #{v.$mondrian-rust} 66.66%,
+      #{v.$mondrian-rust} 100%
+    )
+    1;
+}
+
+// The bold first-name span in the about-page title (h1.post-title
+// span.font-weight-bold), scoped so it doesn't recolor bold text elsewhere.
+.post-title .font-weight-bold {
+  color: #{v.$mondrian-rust};
 }

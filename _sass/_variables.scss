@@ -59,8 +59,14 @@ $max-content-width: 930px !default;
 // -----------------------------------------------------------------------------
 // Mondrian palette, matched from cs.utexas.edu/~swarat (design by Swarat's wife)
 // -----------------------------------------------------------------------------
+// Exact sampled navy: rich against white, used for solid blocks (footer,
+// nav accent bar, back-to-top) where it sits on its own, not as text.
 $mondrian-navy: #0b2d59;
 $mondrian-navy-dark: #082140;
+// Brighter blue for use as --global-theme-color (link/accent text): the
+// exact navy above reads almost as black at text size next to the near-black
+// body copy, so text usage needs more lift to actually look blue.
+$mondrian-blue-text: #1a4f9c;
 $mondrian-yellow: #dad024;
 $mondrian-rust: #b52504;
 $mondrian-rust-bright: #d9481f;
