@@ -1,3 +1,667 @@
 metadata:
-  last_updated: null
-papers: {}
+  last_updated: '2026-09-04'
+papers:
+  9j6RBYQAAAAJ:-_dYPAW6P2MC:
+    citations: 0
+    title: "2024 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)| 979-8-3503-4950-4/24/$31.00\xA9 2024 IEEE| DOI: 10.1109/SaTML59370. 2024.00043"
+    year: Unknown Year
+  9j6RBYQAAAAJ:-f6ydRqryjwC:
+    citations: 47
+    title: Extraction of statistically significant malware behaviors
+    year: '2013'
+  9j6RBYQAAAAJ:08ZZubdj9fEC:
+    citations: 143
+    title: Neurosymbolic Reinforcement Learning with Formally Verified Exploration
+    year: '2020'
+  9j6RBYQAAAAJ:0KyAp5RtaNEC:
+    citations: 0
+    title: Learning Quantitative Automata Modulo Theories
+    year: '2024'
+  9j6RBYQAAAAJ:0N-VGjzr574C:
+    citations: 1
+    title: 'FormulaCode: Evaluating Agentic Optimization on Large Codebases'
+    year: '2026'
+  9j6RBYQAAAAJ:1yQoGdGgb4wC:
+    citations: 16
+    title: Weighted context-free-language ordered binary decision diagrams
+    year: '2024'
+  9j6RBYQAAAAJ:2KloaMYe4IUC:
+    citations: 0
+    title: Formal Methods LNCS 13903
+    year: Unknown Year
+  9j6RBYQAAAAJ:2osOgNQ5qMEC:
+    citations: 1385
+    title: A study of android application security.
+    year: '2011'
+  9j6RBYQAAAAJ:35N4QoGY0k4C:
+    citations: 209
+    title: Neural Sketch Learning for Conditional Program Generation
+    year: '2018'
+  9j6RBYQAAAAJ:3s1wT3WcHBgC:
+    citations: 49
+    title: Bounded policy synthesis for POMDPs with safe-reachability objectives
+    year: '2018'
+  9j6RBYQAAAAJ:4DMP91E08xMC:
+    citations: 5
+    title: 'Euler: A System for Numerical Optimization of Programs'
+    year: '2012'
+  9j6RBYQAAAAJ:4JMBOYKVnBMC:
+    citations: 468
+    title: Synthesizing data structure transformations from input-output examples
+    year: '2015'
+  9j6RBYQAAAAJ:4MWp96NkSFoC:
+    citations: 0
+    title: 'SHF: Small: Computer-Aided Grading, Feedback, and Assignment Creating in Massive Online Programming Courses'
+    year: '2013'
+  9j6RBYQAAAAJ:4TOpqqG69KYC:
+    citations: 0
+    title: Logics and algorithms for software model checking
+    year: '2007'
+  9j6RBYQAAAAJ:5Ul4iDaHHb8C:
+    citations: 20
+    title: Interpreting expert annotation differences in animal behavior
+    year: '2021'
+  9j6RBYQAAAAJ:5awf1xo2G04C:
+    citations: 26
+    title: Neurosymbolic programming for science
+    year: '2022'
+  9j6RBYQAAAAJ:5qfkUJPXOUwC:
+    citations: 0
+    title: 'VENDIEVOLVE: Towards Diversity-Aware LLM-Guided Evolutionary Search'
+    year: Unknown Year
+  9j6RBYQAAAAJ:70eg2SAEIzsC:
+    citations: 28
+    title: Comparator automata in quantitative verification
+    year: '2022'
+  9j6RBYQAAAAJ:738O_yMBCRsC:
+    citations: 17
+    title: Searching a database of source codes using contextualized code search
+    year: '2020'
+  9j6RBYQAAAAJ:7PzlFSSx8tAC:
+    citations: 14
+    title: A semantics for approximate program transformations
+    year: '2013'
+  9j6RBYQAAAAJ:7T2F9Uy0os0C:
+    citations: 27
+    title: Online Cascade Learning for Efficient Inference over Streams
+    year: '2024'
+  9j6RBYQAAAAJ:86PQX7AUzd4C:
+    citations: 2
+    title: Comparator automata in quantitative verification
+    year: '2022'
+  9j6RBYQAAAAJ:8AbLer7MMksC:
+    citations: 35
+    title: 'Representing formal languages: A comparison between finite automata and recurrent neural networks'
+    year: '2019'
+  9j6RBYQAAAAJ:9Nmd_mFXekcC:
+    citations: 0
+    title: Program Embeddings for Rapid Mechanism Evaluation
+    year: Unknown Year
+  9j6RBYQAAAAJ:9ZlFYXVOiuMC:
+    citations: 14
+    title: Robustness analysis of networked systems
+    year: '2013'
+  9j6RBYQAAAAJ:9yKSN-GCB0IC:
+    citations: 46
+    title: Model checking on trees with path equivalences
+    year: '2007'
+  9j6RBYQAAAAJ:AvfA0Oy_GE0C:
+    citations: 2
+    title: Self-Evolving Visual Concept Library using Vision-Language Critics
+    year: '2025'
+  9j6RBYQAAAAJ:B3FOqHPlNUQC:
+    citations: 21
+    title: 'Online Partial Conditional Plan Synthesis for POMDPs With Safe-Reachability Objectives: Methods and Experiments'
+    year: '2021'
+  9j6RBYQAAAAJ:BUYA1_V_uYcC:
+    citations: 1
+    title: Resource-efficient Inference with Foundation Model Programs
+    year: '2025'
+  9j6RBYQAAAAJ:BqipwSGYUEgC:
+    citations: 8
+    title: Recursive games for compositional program synthesis
+    year: '2015'
+  9j6RBYQAAAAJ:BrmTIyaxlBUC:
+    citations: 26
+    title: Safe Neurosymbolic Learning with Differentiable Symbolic Execution
+    year: '2022'
+  9j6RBYQAAAAJ:BwyfMAYsbu0C:
+    citations: 0
+    title: 'SHF: Medium: Collaborative Research: Bridging Automated Formal Reasoning and Continuous Optimization for Provably Safe Deep Learning'
+    year: '2019'
+  9j6RBYQAAAAJ:ClCfbGk0d_YC:
+    citations: 0
+    title: 'ProofWala: A Framework for Multilingual Proof Data Synthesis and Theorem-Proving'
+    year: '2025'
+  9j6RBYQAAAAJ:D03iK_w7-QYC:
+    citations: 11
+    title: Automata vs linear-programming discounted-sum inclusion
+    year: '2018'
+  9j6RBYQAAAAJ:Dip1O2bNi0gC:
+    citations: 0
+    title: Evaluating Agentic Optimization on Large Codebases
+    year: '2026'
+  9j6RBYQAAAAJ:EYYDruWGBe4C:
+    citations: 0
+    title: 'SHF: Medium: Collaborative Research: Marrying Program Analysis and Numerical Search'
+    year: '2012'
+  9j6RBYQAAAAJ:EkHepimYqZsC:
+    citations: 1
+    title: 'Proofwala: Multilingual Proof Data Synthesis and Theorem-Proving'
+    year: '2025'
+  9j6RBYQAAAAJ:FPJr55Dyh1AC:
+    citations: 0
+    title: Do CFLOBDDs Actually Make Use of Linear Structure?
+    year: '2026'
+  9j6RBYQAAAAJ:Fu2w8maKXqMC:
+    citations: 49
+    title: Batched Low-Rank Adaptation of Foundation Models
+    year: '2024'
+  9j6RBYQAAAAJ:GnPB-g6toBAC:
+    citations: 39
+    title: Task and motion policy synthesis as liveness games
+    year: '2016'
+  9j6RBYQAAAAJ:HDshCWvjkbEC:
+    citations: 118
+    title: SMT-based synthesis of integrated task and motion plans from plan outlines
+    year: '2014'
+  9j6RBYQAAAAJ:HbR8gkJAVGIC:
+    citations: 7
+    title: An improved last-iterate convergence rate for anchored gradient descent ascent
+    year: '2026'
+  9j6RBYQAAAAJ:HoB7MX3m0LUC:
+    citations: 5
+    title: Game theory in AI, logic, and algorithms (dagstuhl seminar 17111)
+    year: '2017'
+  9j6RBYQAAAAJ:ILKRHgRFtOwC:
+    citations: 0
+    title: 'CAREER: Robustness Analysis of Uncertain Programs: Theory, Algorithms, and Tools'
+    year: '2011'
+  9j6RBYQAAAAJ:IWHjjKOFINEC:
+    citations: 10
+    title: Isolation for nested task parallelism
+    year: '2013'
+  9j6RBYQAAAAJ:IjCSPb-OGe4C:
+    citations: 42
+    title: Instrumenting C programs with nested word monitors
+    year: '2007'
+  9j6RBYQAAAAJ:J-pR_7NvFogC:
+    citations: 12
+    title: 'Computer Aided Verification: 28th International Conference, CAV 2016, Toronto, ON, Canada, July 17-23, 2016, Proceedings, Part I'
+    year: '2016'
+  9j6RBYQAAAAJ:JQOojiI6XY0C:
+    citations: 0
+    title: Learning Reward Machines through Preference Queries over Sequences.
+    year: '2023'
+  9j6RBYQAAAAJ:KUbvn5osdkgC:
+    citations: 0
+    title: 'SHF: Medium: Collaborative Research: Chorus: Dynamic Isolation in Shared-Memory Parallelism'
+    year: '2011'
+  9j6RBYQAAAAJ:KlAtU1dfN6UC:
+    citations: 33
+    title: Software model checking using languages of nested trees
+    year: '2011'
+  9j6RBYQAAAAJ:KxtntwgDAa4C:
+    citations: 148
+    title: 'Optimization and abstraction: a synergistic approach for analyzing neural network robustness'
+    year: '2019'
+  9j6RBYQAAAAJ:L7CI7m0gUJcC:
+    citations: 0
+    title: 'Collaborative Research: PPoSS: Large: A Full-stack Approach to Declarative Analytics at Scale'
+    year: '2023'
+  9j6RBYQAAAAJ:L8Ckcad2t8MC:
+    citations: 23
+    title: Regular real analysis
+    year: '2013'
+  9j6RBYQAAAAJ:LI9QrySNdTsC:
+    citations: 11
+    title: 'Lean finder: Semantic search for mathlib that understands user intents'
+    year: '2026'
+  9j6RBYQAAAAJ:LPZeul_q3PIC:
+    citations: 7
+    title: A sampling-based motion planning framework for complex motor actions
+    year: '2021'
+  9j6RBYQAAAAJ:LjlpjdlvIbIC:
+    citations: 25
+    title: Natural language deduction with incomplete information
+    year: '2022'
+  9j6RBYQAAAAJ:LkGwnXOMwfcC:
+    citations: 25
+    title: Temporal reasoning for procedural programs
+    year: '2010'
+  9j6RBYQAAAAJ:M05iB0D1s5AC:
+    citations: 75
+    title: Bayesian specification learning for finding API usage errors
+    year: '2017'
+  9j6RBYQAAAAJ:M3NEmzRMIkIC:
+    citations: 32
+    title: 'Controller synthesis with inductive proofs for piecewise linear systems: An smt-based algorithm'
+    year: '2015'
+  9j6RBYQAAAAJ:M7yex6snE4oC:
+    citations: 6
+    title: 'Canopy: Property-driven learning for congestion control'
+    year: '2026'
+  9j6RBYQAAAAJ:ML0RJ9NH7IQC:
+    citations: 1107
+    title: 'Alphaevolve: A coding agent for scientific and algorithmic discovery'
+    year: '2025'
+  9j6RBYQAAAAJ:MLfJN-KU85MC:
+    citations: 7
+    title: 'Flashresearch: Real-time agent orchestration for efficient deep research'
+    year: '2025'
+  9j6RBYQAAAAJ:MXK_kJrjxJIC:
+    citations: 70
+    title: Dynamic inference of likely data preconditions over predicates by tree learning
+    year: '2008'
+  9j6RBYQAAAAJ:N5tVd3kTz84C:
+    citations: 35
+    title: Symbolic quantum simulation with quasimodo
+    year: '2023'
+  9j6RBYQAAAAJ:NMxIlDl6LWMC:
+    citations: 82
+    title: Synthesizing transformations on hierarchically structured data
+    year: '2016'
+  9j6RBYQAAAAJ:NhqRSupF_l8C:
+    citations: 3
+    title: Point-based policy synthesis for POMDPs with boolean and quantitative objectives
+    year: '2019'
+  9j6RBYQAAAAJ:O3NaXMp0MMsC:
+    citations: 315
+    title: 'Incremental task and motion planning: A constraint-based approach.'
+    year: '2016'
+  9j6RBYQAAAAJ:PR6Y55bgFSsC:
+    citations: 12
+    title: Coarse-tuning models of code with reinforcement learning feedback
+    year: '2023'
+  9j6RBYQAAAAJ:PVjk1bu6vJQC:
+    citations: 0
+    title: Towards Autonomous Software Development
+    year: Unknown Year
+  9j6RBYQAAAAJ:PoWvk5oyLR8C:
+    citations: 0
+    title: Coadaptive Value Alignment
+    year: Unknown Year
+  9j6RBYQAAAAJ:R3hNpaxXUhUC:
+    citations: 21
+    title: Optimal guard synthesis for memory safety
+    year: '2014'
+  9j6RBYQAAAAJ:RHpTSmoSYBkC:
+    citations: 30
+    title: Learning to grade student programs in a massive open online course
+    year: '2014'
+  9j6RBYQAAAAJ:RYcK_YlVTxYC:
+    citations: 262
+    title: Component-based synthesis of table consolidation and transformation tasks from examples
+    year: '2017'
+  9j6RBYQAAAAJ:TQgYirikUcIC:
+    citations: 22
+    title: Test-driven repair of data races in structured parallel programs
+    year: '2014'
+  9j6RBYQAAAAJ:Tyk-4Ss8FVUC:
+    citations: 13
+    title: Compression of partially ordered strings
+    year: '2003'
+  9j6RBYQAAAAJ:UHK10RUVsp4C:
+    citations: 3
+    title: Deductive additivity for planning of natural language proofs
+    year: '2023'
+  9j6RBYQAAAAJ:URolC5Kub84C:
+    citations: 7
+    title: Neurosymbolic program synthesis
+    year: '2025'
+  9j6RBYQAAAAJ:UeHWp8X0CEIC:
+    citations: 121
+    title: Subcubic algorithms for recursive state machines
+    year: '2008'
+  9j6RBYQAAAAJ:Ug5p-4gJ2f0C:
+    citations: 0
+    title: Cost-Aware Optimization for Agentic Query Execution
+    year: '2026'
+  9j6RBYQAAAAJ:UxriW0iASnsC:
+    citations: 51
+    title: Neural query expansion for code search
+    year: '2019'
+  9j6RBYQAAAAJ:V3AGJWp-ZtQC:
+    citations: 60
+    title: Natural language deduction through search over statement compositions
+    year: '2022'
+  9j6RBYQAAAAJ:VOx2b1Wkg3QC:
+    citations: 16
+    title: Unsupervised learning of neurosymbolic encoders
+    year: '2021'
+  9j6RBYQAAAAJ:VaXvl8Fpj5cC:
+    citations: 2
+    title: Learning interestingness in automated mathematical theory formation
+    year: '2026'
+  9j6RBYQAAAAJ:W5xh706n7nkC:
+    citations: 254
+    title: 'Musr: Testing the limits of chain-of-thought with multistep soft reasoning'
+    year: '2024'
+  9j6RBYQAAAAJ:W7OEmFMy1HYC:
+    citations: 71
+    title: Model checking of linearizability of concurrent list implementations
+    year: '2010'
+  9j6RBYQAAAAJ:WA5NYHcadZ8C:
+    citations: 9
+    title: Automating Mechanism Design with Program Synthesis
+    year: '2022'
+  9j6RBYQAAAAJ:WF5omc3nYNoC:
+    citations: 84
+    title: Path-based inductive synthesis for program inversion
+    year: '2011'
+  9j6RBYQAAAAJ:WZBGuue-350C:
+    citations: 0
+    title: Comparator Automata in Quantitative
+    year: '2018'
+  9j6RBYQAAAAJ:WbkHhVStYXYC:
+    citations: 160
+    title: Imitation-projected programmatic reinforcement learning
+    year: '2019'
+  9j6RBYQAAAAJ:Wp0gIr-vW9MC:
+    citations: 96
+    title: Continuity and robustness of programs
+    year: '2012'
+  9j6RBYQAAAAJ:XoXfffV-tXoC:
+    citations: 3
+    title: 'When Parallelism Pays Off: Cohesion-Aware Task Partitioning for Multi-Agent Coding'
+    year: '2026'
+  9j6RBYQAAAAJ:Y0pCki6q_DkC:
+    citations: 26
+    title: Parallel programming with object assemblies
+    year: '2009'
+  9j6RBYQAAAAJ:YFjsv_pBGBYC:
+    citations: 7
+    title: 'Abstract Interpretation with Infinitesimals: Towards Scalability in Nonstandard Static Analysis'
+    year: '2015'
+  9j6RBYQAAAAJ:Z5m8FVwuT1cC:
+    citations: 49
+    title: 'Clever: A curated benchmark for formally verified code generation'
+    year: '2025'
+  9j6RBYQAAAAJ:ZeXyd9-uunAC:
+    citations: 1
+    title: 'Full presentation: Reasoning about machine ethics'
+    year: '2014'
+  9j6RBYQAAAAJ:Zph67rFs4hoC:
+    citations: 44
+    title: Smoothing a program soundly and robustly
+    year: '2011'
+  9j6RBYQAAAAJ:ZuybSZzF8UAC:
+    citations: 7
+    title: A Probabilistic Framework for Modular Continual Learning
+    year: '2024'
+  9j6RBYQAAAAJ:_FxGoFyzp5QC:
+    citations: 94
+    title: Smooth interpretation
+    year: '2010'
+  9j6RBYQAAAAJ:_Re3VWB3Y0AC:
+    citations: 21
+    title: Neurosymbolic Grounding for Compositional Generalization
+    year: '2024'
+  9j6RBYQAAAAJ:_axFR9aDTf0C:
+    citations: 0
+    title: 'Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration'
+    year: '2026'
+  9j6RBYQAAAAJ:b0M2c_1WBrUC:
+    citations: 120
+    title: 'Houdini: Lifelong learning as program synthesis'
+    year: '2018'
+  9j6RBYQAAAAJ:b1wdh0AR-JQC:
+    citations: 1
+    title: Automata learning from preference and equivalence queries
+    year: '2025'
+  9j6RBYQAAAAJ:blknAaTinKkC:
+    citations: 0
+    title: 'Abstract Interpretation with Infinitesimals: Towards Scalability in Nonstandard Static Analysis (Extended Version)'
+    year: '2015'
+  9j6RBYQAAAAJ:bnK-pcrLprsC:
+    citations: 6
+    title: Meta-meta classification for one-shot learning
+    year: '2022'
+  9j6RBYQAAAAJ:d1gkVwhDpl0C:
+    citations: 133
+    title: Continuity analysis of programs
+    year: '2010'
+  9j6RBYQAAAAJ:dhFuZR0502QC:
+    citations: 22
+    title: Robustness analysis of string transducers
+    year: '2013'
+  9j6RBYQAAAAJ:dshw04ExmUIC:
+    citations: 133
+    title: Control regularization for reduced variance reinforcement learning
+    year: '2019'
+  9j6RBYQAAAAJ:eMMeJKvmdy0C:
+    citations: 41
+    title: Policy optimization with linear temporal logic constraints
+    year: '2022'
+  9j6RBYQAAAAJ:eQOLeE2rZwMC:
+    citations: 171
+    title: Proving programs robust
+    year: '2011'
+  9j6RBYQAAAAJ:e_rmSamDkqQC:
+    citations: 5
+    title: 'Formal reasoning meets llms: Toward ai for mathematics and verification'
+    year: '2026'
+  9j6RBYQAAAAJ:edDO8Oi4QzsC:
+    citations: 0
+    title: 'MOSAIC: The Right Modules for Each Task in Embodied Agents'
+    year: Unknown Year
+  9j6RBYQAAAAJ:eflP2zaiRacC:
+    citations: 57
+    title: 'Few-shot image classification: Just use a library of pre-trained feature extractors and a simple classifier'
+    year: '2021'
+  9j6RBYQAAAAJ:epqYDVWIO7EC:
+    citations: 23
+    title: LTL-constrained policy optimization with cycle experience replay
+    year: '2024'
+  9j6RBYQAAAAJ:eq2jaN3J8jMC:
+    citations: 11
+    title: Guiding safe exploration with weakest preconditions
+    year: '2023'
+  9j6RBYQAAAAJ:f2IySw72cVMC:
+    citations: 24
+    title: Program splicing
+    year: '2018'
+  9j6RBYQAAAAJ:fEOibwPWpKIC:
+    citations: 12
+    title: 'Prompt Tuning Strikes Back: Customizing Foundation Models with Low-Rank Prompt Adaptation'
+    year: '2024'
+  9j6RBYQAAAAJ:fPk4N6BV_jEC:
+    citations: 642
+    title: Programmatically Interpretable Reinforcement Learning
+    year: '2018'
+  9j6RBYQAAAAJ:fQNAKQ3IYiAC:
+    citations: 64
+    title: Bottom-up synthesis of recursive functional programs using angelic execution
+    year: '2022'
+  9j6RBYQAAAAJ:foquWX3nUaYC:
+    citations: 0
+    title: Do CFLOBDDs Actually Make Use of Linear Structure?
+    year: '2026'
+  9j6RBYQAAAAJ:g3aElNc5_aQC:
+    citations: 0
+    title: 'SHF: Medium: Collaborative Research: Chorus: Dynamic Isolation in Shared-Memory Parallelism'
+    year: '2010'
+  9j6RBYQAAAAJ:hC7cP41nSMkC:
+    citations: 13
+    title: Consistency analysis of decision-making programs
+    year: '2014'
+  9j6RBYQAAAAJ:hCrLmN-GePgC:
+    citations: 0
+    title: 'The Grothendieck Constant is Less Than '
+    year: '2026'
+  9j6RBYQAAAAJ:hFOr9nPyWt4C:
+    citations: 129
+    title: A constraint-based approach to solving games on infinite graphs
+    year: '2014'
+  9j6RBYQAAAAJ:hMsQuOkrut0C:
+    citations: 0
+    title: 'SHF: Medium: Collaborative Research: Bridging Automated Formal Reasoning and Continuous Optimization for Provably Safe Deep Learning'
+    year: '2020'
+  9j6RBYQAAAAJ:hkOj_22Ku90C:
+    citations: 0
+    title: "NASA Formal Methods: 15th International Symposium, NFM 2023, Houston, TX, USA, May 16\u201318, 2023, Proceedings"
+    year: '2023'
+  9j6RBYQAAAAJ:hqOjcs7Dif8C:
+    citations: 3
+    title: Branching pushdown tree automata
+    year: '2006'
+  9j6RBYQAAAAJ:ipzZ9siozwsC:
+    citations: 134
+    title: 'Formal mathematical reasoning: A new frontier in ai'
+    year: '2024'
+  9j6RBYQAAAAJ:j8SEvjWlNXcC:
+    citations: 5
+    title: Relational synthesis of recursive programs via constraint annotated tree automata
+    year: '2024'
+  9j6RBYQAAAAJ:k8Z6L05lTy4C:
+    citations: 0
+    title: 'The 2nd Workshop on Foundation Models for Science: Real-World Impact and Science-First Design'
+    year: Unknown Year
+  9j6RBYQAAAAJ:kRWSkSYxWN8C:
+    citations: 179
+    title: Neurosymbolic programming
+    year: '2021'
+  9j6RBYQAAAAJ:kuK5TVdYjLIC:
+    citations: 1
+    title: 'Formulacode: Evaluating agentic superoptimization on large codebases'
+    year: '2025'
+  9j6RBYQAAAAJ:kz9GbA2Ns4gC:
+    citations: 18
+    title: 'CSLib: the Lean computer science library'
+    year: '2026'
+  9j6RBYQAAAAJ:kzcrU_BdoSEC:
+    citations: 4
+    title: On a foundation model for operating systems
+    year: '2023'
+  9j6RBYQAAAAJ:l7t_Zn2s7bgC:
+    citations: 74
+    title: Learning Differentiable Programs with Admissible Neural Heuristics
+    year: '2020'
+  9j6RBYQAAAAJ:lmc2jWPfTJgC:
+    citations: 10
+    title: Man-Made Heuristics Are Dead. Long Live Code Generators!
+    year: '2025'
+  9j6RBYQAAAAJ:mB3voiENLucC:
+    citations: 62
+    title: Bridging boolean and quantitative synthesis using smoothed proof search
+    year: '2014'
+  9j6RBYQAAAAJ:mvPsJ3kp5DgC:
+    citations: 42
+    title: Flexible generation of natural language deductions
+    year: '2021'
+  9j6RBYQAAAAJ:nrtMV_XWKgEC:
+    citations: 124
+    title: An In-Context Learning Agent for Formal Theorem-Proving
+    year: '2024'
+  9j6RBYQAAAAJ:oNZyr7d5Mn4C:
+    citations: 0
+    title: Instrumenting C Programs with Nested Word
+    year: '2007'
+  9j6RBYQAAAAJ:p__nRnzSRKYC:
+    citations: 0
+    title: 'SHF: Medium: Neurosymbolic Agents for Formal Theorem-Proving'
+    year: '2024'
+  9j6RBYQAAAAJ:pyW8ca7W8N0C:
+    citations: 72
+    title: 'The task-motion kit: An open source, general-purpose task and motion-planning framework'
+    year: '2018'
+  9j6RBYQAAAAJ:q3CdL3IzO_QC:
+    citations: 18
+    title: Advancing mathematics research with AI-driven formal proof search
+    year: '2026'
+  9j6RBYQAAAAJ:q3oQSFYPqjQC:
+    citations: 80
+    title: Neural program generation modulo static analysis
+    year: '2021'
+  9j6RBYQAAAAJ:qjMakFHDy7sC:
+    citations: 71
+    title: Symbolic pruning of concurrent program executions
+    year: '2009'
+  9j6RBYQAAAAJ:r0BpntZqJG4C:
+    citations: 35
+    title: 'Grading the graders: Motivating peer graders in a MOOC'
+    year: '2015'
+  9j6RBYQAAAAJ:rO6llkc54NcC:
+    citations: 224
+    title: An incremental constraint-based framework for task and motion planning
+    year: '2018'
+  9j6RBYQAAAAJ:rmuvC79q63oC:
+    citations: 0
+    title: New Lower and Upper Bounds for the Grothendieck Constant
+    year: '2026'
+  9j6RBYQAAAAJ:ruyezt5ZtCIC:
+    citations: 1
+    title: Coadaptive Value Alignment
+    year: '2026'
+  9j6RBYQAAAAJ:sSrBHYA8nusC:
+    citations: 5
+    title: 'OneVision: Centralized to Distributed Controller Synthesis with Delay Compensation'
+    year: '2021'
+  9j6RBYQAAAAJ:t7zJ5fGR-2UC:
+    citations: 217
+    title: 'Putnambench: Evaluating neural theorem-provers on the putnam mathematical competition'
+    year: '2024'
+  9j6RBYQAAAAJ:tKAzc9rXhukC:
+    citations: 20
+    title: Grounding data science code generation with input-output specifications
+    year: '2024'
+  9j6RBYQAAAAJ:tYavs44e6CUC:
+    citations: 0
+    title: 'CAREER: Robustness Analysis of Uncertain Programs: Theory, Algorithms, and Tools'
+    year: '2010'
+  9j6RBYQAAAAJ:tzM49s52ZIMC:
+    citations: 3
+    title: Certifiably robust reinforcement learning through model-based abstract interpretation
+    year: '2024'
+  9j6RBYQAAAAJ:u-x6o8ySG0sC:
+    citations: 51
+    title: Languages of nested trees
+    year: '2006'
+  9j6RBYQAAAAJ:u5HHmVD_uO8C:
+    citations: 51
+    title: A fixpoint calculus for local and global program flows
+    year: '2006'
+  9j6RBYQAAAAJ:uJ-U7cs_P_0C:
+    citations: 115
+    title: Symbolic regression with a learned concept library
+    year: '2024'
+  9j6RBYQAAAAJ:uWiczbcajpAC:
+    citations: 0
+    title: Programming Languages and Systems
+    year: '2024'
+  9j6RBYQAAAAJ:u_35RYKgDlwC:
+    citations: 1417
+    title: 'Ai2: Safety and robustness certification of neural networks with abstract interpretation'
+    year: '2018'
+  9j6RBYQAAAAJ:ufrVoPGSRksC:
+    citations: 41
+    title: Delegated isolation
+    year: '2011'
+  9j6RBYQAAAAJ:vDijr-p_gm4C:
+    citations: 0
+    title: 'Proceedings of the 6th ACM SIGPLAN International Symposium on Machine Programming (MAPS''22): June 13, 2022, San Diego, CA, USA'
+    year: '2022'
+  9j6RBYQAAAAJ:vbGhcppDl1QC:
+    citations: 0
+    title: 'Collaborative Research: SHF: Medium: Semantics-Aware Neural Models of Code'
+    year: '2022'
+  9j6RBYQAAAAJ:xtoqd-5pKcoC:
+    citations: 0
+    title: Programmatic Reinforcement Learning
+    year: '2026'
+  9j6RBYQAAAAJ:yB1At4FlUx8C:
+    citations: 1
+    title: 'Synthesize, Partition, then Adapt: Eliciting Diverse Samples from Foundation Models'
+    year: '2024'
+  9j6RBYQAAAAJ:ye4kPcJQO24C:
+    citations: 30
+    title: 'CFLOBDDs: Context-free-language ordered binary decision diagrams'
+    year: '2024'
+  9j6RBYQAAAAJ:zLWjf1WUPmwC:
+    citations: 0
+    title: Proof Search Augmented Language Models
+    year: Unknown Year
+  9j6RBYQAAAAJ:zYLM7Y9cAGgC:
+    citations: 36
+    title: On-the-fly reachability and cycle detection for recursive state machines
+    year: '2005'
